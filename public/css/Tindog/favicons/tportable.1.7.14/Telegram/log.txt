@@ -1,0 +1,61 @@
+[2019.08.08 04:19:43] Launched version: 1007014, install beta: [FALSE], alpha: 0, debug mode: [FALSE], test dc: [FALSE]
+[2019.08.08 04:19:43] Executable dir: C:/Users/Taylor/Web_Development/Tindog/TinDog-Start-master/TinDog-Start-master/favicons/tportable.1.7.14/Telegram/, name: Telegram.exe
+[2019.08.08 04:19:43] Initial working dir: C:/Users/Taylor/Web_Development/Tindog/TinDog-Start-master/TinDog-Start-master/favicons/tportable.1.7.14/Telegram/
+[2019.08.08 04:19:43] Working dir: C:/Users/Taylor/Web_Development/Tindog/TinDog-Start-master/TinDog-Start-master/favicons/tportable.1.7.14/Telegram/
+[2019.08.08 04:19:43] Command line: C:\Users\Taylor\Web_Development\Tindog\TinDog-Start-master\TinDog-Start-master\favicons\tportable.1.7.14\Telegram\Telegram.exe
+[2019.08.08 04:19:43] Executable path before check: C:/Users/Taylor/Web_Development/Tindog/TinDog-Start-master/TinDog-Start-master/favicons/tportable.1.7.14/Telegram/Telegram.exe
+[2019.08.08 04:19:43] Logs started
+[2019.08.08 04:19:43] Connecting local socket to Global\16f469fb621bc2d5c60ade3c3f5a35a8-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2019.08.08 04:19:43] This is the only instance of Telegram, starting server and app...
+[2019.08.08 04:19:43] Moved logging from 'C:/Users/Taylor/Web_Development/Tindog/TinDog-Start-master/TinDog-Start-master/favicons/tportable.1.7.14/Telegram/log_start0.txt' to 'C:/Users/Taylor/Web_Development/Tindog/TinDog-Start-master/TinDog-Start-master/favicons/tportable.1.7.14/Telegram/log.txt'!
+[2019.08.08 04:19:43] Primary screen DPI: 96
+[2019.08.08 04:19:43] Checking...
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\.
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\..
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Atom.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Brave.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Control Panel.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\desktop.ini
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Discord.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Dolphin (2).lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Dolphin.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\File Explorer.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\GitHub Desktop.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Google Chrome.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\HWMonitor.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\JetBrains PyCharm 2018.1.4.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Main Console module.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Notepad++.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\PeerBlock.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Qt Designer.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Quicken 2010.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Revo Uninstaller.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\RoboForm Editor.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Snipping Tool.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Spotify.lnk
+[2019.08.08 04:19:43] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Start Zoom.lnk
+[2019.08.08 04:19:44] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Steam.lnk
+[2019.08.08 04:19:44] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Task Manager.lnk
+[2019.08.08 04:19:44] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\UE4Game.lnk
+[2019.08.08 04:19:44] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Wii U emulator.lnk
+[2019.08.08 04:19:44] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Word 2016.lnk
+[2019.08.08 04:19:44] Checking C:\Users\Taylor\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\µTorrent.lnk
+[2019.08.08 04:19:44] OpenAL Logging Level: (not set)
+[2019.08.08 04:19:44] Audio Playback Devices: OpenAL Soft
+[2019.08.08 04:19:44] Audio Playback Default Device: OpenAL Soft
+[2019.08.08 04:19:44] Audio Capture Devices: OpenAL Soft on Microphone (2- Yeti Stereo Microphone)
+[2019.08.08 04:19:44] Audio Capture Default Device: OpenAL Soft on Microphone (2- Yeti Stereo Microphone)
+[2019.08.08 04:19:44] Window Shadow: 1, 1, 3, 4, 6, 9, 13, 18, 24, 31, 38, 46
+[2019.08.08 04:19:44] Update Info: MTP is unavailable.
+[2019.08.08 04:19:55] Lang Error: Unexpected tag (key 'lng_call_box_status_group:count')
+[2019.08.08 04:19:55] Lang Error: Unknown tag (key 'lng_manage_discussion_group_warning:visible')
+[2019.08.08 04:20:56] RPC Error: request 7 got fail with code 400, error PHONE_NUMBER_UNOCCUPIED
+[2019.08.08 04:21:04] Export Info: Destroy top bar by controller removal.
+[2019.08.08 04:22:18] RPC Error: request 32 got fail with code 401, error AUTH_KEY_UNREGISTERED
+[2019.08.08 04:22:38] RPC Error: request 36 got fail with code 400, error PHONE_NUMBER_UNOCCUPIED
+[2019.08.08 04:22:44] Export Info: Destroy top bar by controller removal.
+[2019.08.08 04:24:44] Skipping message, because it is already in blocks!
+[2019.08.08 04:25:15] Skipping message, because it is already in blocks!
+[2019.08.08 04:26:28] Skipping message, because it is already in blocks!
+[2019.08.08 04:26:44] RPC Error: request 136 got fail with code 400, error USER_NOT_PARTICIPANT
+[2019.08.08 04:27:22] RPC Error: request 174 got fail with code 400, error USER_NOT_PARTICIPANT
