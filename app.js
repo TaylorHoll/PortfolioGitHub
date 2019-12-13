@@ -13,6 +13,12 @@ app.get("/", function(req, res){
   res.sendFile(__dirname + "/index.html");
 });
 
-app.listen(3000, function(){
+//if statement allows running locally as well as on keroku
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
 
+app.listen(port, function() {
+  console.log("Server started on port 3000");
 });
