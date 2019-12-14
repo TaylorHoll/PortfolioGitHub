@@ -5515,7 +5515,7 @@ a.close.disabled {
 }
 
 .modal.fade .modal-dialog {
-  transition: all 0.7s;
+  transition: all 0.66s;
   transform: scale(2);
   /* transform: translate(600px, 0); */
 }
