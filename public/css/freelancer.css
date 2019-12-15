@@ -5661,7 +5661,7 @@ a.close.disabled {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 540px;
+    max-width: calc(100% - 2rem);
     margin: 1.75rem auto;
   }
   .modal-dialog-scrollable {
@@ -9804,7 +9804,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .masthead .masthead-heading {
-  font-size: 2.75rem;
+  font-size: 2rem;
   line-height: 2.75rem;
 }
 
@@ -9822,7 +9822,7 @@ a.text-dark:hover, a.text-dark:focus {
     padding-bottom: 6.5rem;
   }
   .masthead .masthead-heading {
-    font-size: 3.25rem;
+    font-size: 2.5rem;
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
@@ -9832,6 +9832,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .portfolio {
   margin-bottom: -30px;
+/* background-image: url("../img/portfolio/splash.jpg"); */
 }
 
 .portfolio .portfolio-item {
@@ -9852,6 +9853,7 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 0;
   /* background-color: rgba(26, 188, 156, 0.9); */
   background-color: #151515ba;
+
 }
 
 .portfolio-item {
@@ -9944,6 +9946,161 @@ text-align: center;
   line-height:2rem;
   text-indent: 40px
 }
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+
+}
+@media (min-width: 992px) {
+  .slide-row{
+    padding: 0px 160px;
+  }
+
+  .skill-list-font{
+    font-size: 5rem;
+      font-weight: 500;
+  }
+}
+
+@media (min-width: 768px) {
+  .skill-list-font{
+    font-size: 1.5rem;
+      font-weight: 500;
+  }
+}
+
+
+/* Slides */
+.mySlides {
+  display: block;
+  padding: 40px;
+
+  text-align: center;
+}
+
+.skill-list-font  {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.skill-list-font-courses  {
+  font-size: 1.10rem;
+  font-weight: 400;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  position: absolute;
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+
+
+
+
+
+
+
+
+
+
+
+.skills-font {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+   /* padding-left:: 5rem;
+   padding-right: 5rem; */
+}
+
+.skills-font-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+   padding-top: 1.5rem;
+   /* padding-left: 5rem;
+   padding-right: 5rem; */
+}
+
+@media (max-width: 576px) {
+  .skills-font {
+    font-size: 1.15rem;
+    line-height: 1.25rem;
+     /* padding-left:: 5rem;
+     padding-right: 5rem; */
+  }
+
+  .skills-font-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 2rem;
+     padding-top: 1.5rem;
+     /* padding-left: 5rem;
+     padding-right: 5rem; */
+  }
+}
+
+
 
 /* @media (max-width: 576px) {
   .col-sm-12 {
