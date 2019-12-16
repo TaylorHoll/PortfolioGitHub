@@ -1,0 +1,429 @@
+.masthead {
+  padding-top: calc(1rem + 74px);
+  padding-bottom: 8rem;
+}
+
+.masthead .masthead-avatar {
+  width: 20rem;
+  margin-top: 3rem;
+}
+
+.masthead .masthead-heading {
+  font-size: 2rem;
+  line-height: 2.75rem;
+}
+
+.masthead .masthead-subheading {
+  font-size: 1.25rem;
+}
+
+.masthead-description {
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin: 0 6rem 0 6rem;
+
+}
+
+
+
+@media (max-width: 568px) {
+  .masthead {
+    padding-top: calc(1rem + 74px);
+    padding-bottom: 2rem;
+  }
+
+  .masthead .masthead-heading {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    padding: 2rem 0rem 1rem 0rem;
+  }
+
+  .masthead .masthead-subheading {
+    font-size: 1.15rem;
+  }
+
+  .masthead .masthead-avatar {
+    width: 60%;
+    height: 60%;
+    margin-top: 1rem;
+  }
+
+  .masthead-description {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0rem 0 0rem;
+
+  }
+  .mod1-image-header{
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    padding-top: 6rem;
+    padding-bottom: 6.5rem;
+  }
+
+  .masthead .masthead-heading {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+
+  .masthead .masthead-subheading {
+    font-size: 1.5rem;
+  }
+}
+
+.mod1a-image-header{
+  font-size: 1.25rem;
+    font-weight: 500;
+  margin-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.portfolio {
+  margin-bottom: -30px;
+  /* background-image: url("../img/portfolio/splash.jpg"); */
+}
+
+.portfolio .portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  margin-bottom: 30px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  /* background-color: rgba(26, 188, 156, 0.9); */
+  background-color: #151515ba;
+}
+
+.portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.portfolio-item .portfolio-item-caption {
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  /* background-color: rgba(26, 188, 156, 0.9); */
+  background-color: #151515ba;
+}
+
+.portfolio-item .portfolio-item-caption:hover {
+  opacity: 1;
+}
+
+
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 1;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+  font-size: 1.5rem;
+}
+
+.portfolio-modal .portfolio-modal-title {
+  font-size: 2.5rem;
+  line-height: 2.25rem;
+}
+@media (max-width: 568px){
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 1.75rem;
+    line-height: 1.5rem;
+  }
+  .modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem .8rem;
+  }
+  .portfolio-modal .close {
+    position: absolute;
+    z-index: 0;
+    right: 1.5rem;
+    top: 1rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #1abc9c;
+    opacity: 1;
+  }
+
+
+  /* // 
+  // .portfolio-modal .close- {
+  //   position: absolute;
+  //   z-index: 0;
+  //   right: .7rem;
+  //   top: 1rem;
+  //   font-size: 2.5rem;
+  //   line-height: 3rem;
+  //   color: #1abc9c;
+  //   opacity: 1;
+  // }
+  // .portfolio-modal .close {
+  //   position: absolute;
+  //   z-index: 1;
+  //   right: .7rem;
+  //   top: 1rem;
+  //   font-size: 2.5rem;
+  //   line-height: 3rem;
+  //   color: #1abc9c;
+  //   opacity: 1;
+  // } */
+
+}
+
+@media (min-width: 992px) {
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 2.75rem;
+    line-height: 2.5rem;
+  }
+}
+.portfolio-modal .close {
+  position: absolute;
+  z-index: 0;
+  right: 1.5rem;
+  top: 1rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #1abc9c;
+  opacity: 1;
+}
+
+
+/* OverlayEffects */
+.mod-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.mod-item .overlay {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  background-color: rgba(26, 188, 156, 0.9);
+}
+
+.mod-item .overlay:hover {
+  opacity: 1;
+}
+
+.mod-item .overlay .text {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+.text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.portfolio-lead {
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+.portfolio-about {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2rem;
+  text-indent: 40px
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+@media (min-width: 992px) {
+  .slide-row {
+    padding: 0px 160px;
+  }
+
+  .skill-list-font {
+    font-size: 5rem;
+    font-weight: 500;
+  }
+
+  .portfolio-lead {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 768px) {
+  .skill-list-font {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+
+/* Slides */
+.mySlides {
+  display: block;
+  padding: 40px;
+  text-align: center;
+}
+
+.skill-list-font {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.skill-list-font-courses {
+  font-size: 1.10rem;
+  font-weight: 400;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  position: absolute;
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: cornflowerblue;
+}
+
+.skills-font {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  /* padding-left:: 5rem;
+   padding-right: 5rem; */
+}
+
+.skills-font-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+  padding-top: 1.5rem;
+  /* padding-left: 5rem;
+   padding-right: 5rem; */
+}
+
+@media (max-width: 576px) {
+  .skills-font {
+    font-size: 1.15rem;
+    line-height: 1.25rem;
+    /* padding-left:: 5rem;
+     padding-right: 5rem; */
+  }
+
+  .skills-font-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 2rem;
+    padding-top: 1.5rem;
+    /* padding-left: 5rem;
+     padding-right: 5rem; */
+  }
+}
+
+/* @media (max-width: 576px) {
+  .col-sm-12 {
+    padding-bottom: 2rem;
+  } */
+/* .collapsible {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  } */

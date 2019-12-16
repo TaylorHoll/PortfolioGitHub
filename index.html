@@ -16,6 +16,7 @@
   <!-- Theme CSS -->
   <link href="/css/animate.css" rel="stylesheet">
   <link href="/css/freelancer.css" rel="stylesheet">
+  <link href="/css/styles.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -51,11 +52,12 @@
       <p> </p>
 
       <!-- Masthead Avatar Image -->
-      <img class="masthead-avatar mt-5 rounded-circle shadow-lg" src="img/portfolio/MainAvatar.png" alt="" height="355">
+      <img class="masthead-avatar rounded-circle shadow-lg" src="img/portfolio/MainAvatar.png" alt="" height="355">
 
       <!-- Masthead Heading -->
-      <h5 class="masthead-heading text-uppercase px-5 my-4"> Computer Science Portfolio of Taylor Holloway </h5>
-      <p class="masthead-subheading font-weight-bolder mb-0">Fullstack Web Developer - Cyber Security Analyst - Software Developer</p>
+      <!-- px-5 my-4 -->
+      <h5 class="masthead-heading text-uppercase "> Taylor Holloway <br> Portfolio</h5>
+      <p class="masthead-subheading font-weight-bolder mb-0">Fullstack Web Developer - Cybersecurity Analyst - Software Developer</p>
 
       <!-- Icon Divider -->
       <div class="divider-custom divider-light">
@@ -67,12 +69,13 @@
       </div>
 
       <!-- Masthead Subheading -->
-      <div class="row text-center mx-5">
+      <div class="row text-center">
         <div class="col-lg-12">
-          <p class="portfolio-lead mx-5">The sections below will link to, and elaborate on my ever growing expertise in the Computer Science field.
-            After working in the political realm doing Cyber Security and Systems
-            Administration, I now have gone through two courses on FullStack Development.
-            There are many fields I am familiar with so please click the images below!
+          <p class="masthead-description">I created this website as a portal for my work. I wanted a simpler way to showcase my diverse skillset rather than just some public Github resources.
+             This site contains demonstrations/links to four different websites, twelve software programs split between PyQt5 and the .NET frameworks, a video game I created for my college thesis as well as other scholarly accolades,
+             and letters of reccomendation from CEO of Infinity, Dave Wertz and Senator Ojeda for my work in cybersecurity. <p></p>
+
+             I will be updating this portfolio as well, which is very exciting. Thank you for your visit!
           </p>
         </div>
         <!-- <p class="portfolio-lead font-weight-light mb-0" style="width:59rem">
@@ -406,14 +409,17 @@
   <!-- Portfolio Modal 1 -->
   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+
       <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
+
         <div class="modal-body text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
           <div class="container">
+
             <div class="row justify-content-center">
               <!-- Portfolio Modal - Title -->
               <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">FullStack Web Development</h2>
@@ -426,7 +432,7 @@
                 <div class="divider-custom-line"></div>
               </div>
               <!-- Portfolio Modal - Image -->
-              <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="col-6 col-sm-4 col-md-4 col-lg-4">
                 <div class="portfolio-item my-auto mx-auto" data-toggle="modal" data-target="#portfolioModal1a">
                   <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100" data-toggle="modal" data-target="#portfolioModal1a" data-dismiss="modal">
                     <div class="portfolio-item-caption-content text-center text-white">
@@ -436,9 +442,9 @@
                   </div>
                   <img class="img-thumbnail" src="img/portfolio/Tindog1 - Copy.png" alt="">
                 </div>
-                <h6 class="text-center text-secondary portfolio-lead py-3 mb-5 ">Tindog</h6>
+                <h6 class="text-center mod1-image-header ">Tindog</h6>
               </div>
-              <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="col-6 col-sm-4 col-md-4 col-lg-4">
                 <div class="portfolio-item my-auto mx-auto" data-toggle="modal" data-target="#portfolioModal1b">
                   <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100" data-toggle="modal" data-target="#portfolioModal1b" data-dismiss="modal">
                     <div class="portfolio-item-caption-content text-center text-white">
@@ -448,9 +454,9 @@
                   </div>
                   <img class="img-thumbnail" src="img/portfolio/Todolist.jpg" alt="">
                 </div>
-                <h6 class="text-center text-secondary portfolio-lead py-3 mb-5">ToDoList</h6>
+                <h6 class="text-center mod1-image-header">ToDoList</h6>
               </div>
-              <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="col-6 col-sm-4 col-md-4 col-lg-4">
                 <div class="portfolio-item my-auto mx-auto" data-toggle="modal" data-target="#portfolioModal1c">
                   <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100" data-toggle="modal" data-target="#portfolioModal1c" data-dismiss="modal">
                     <div class="portfolio-item-caption-content text-center text-white">
@@ -460,7 +466,7 @@
                   </div>
                   <img class="img-thumbnail" src="img/portfolio/Newsletter.PNG" alt="">
                 </div>
-                <h6 class="text-center text-secondary portfolio-lead py-3 mb-5">Email Newsletter</h6>
+                <h6 class="text-center mod1-image-header">Email Newsletter</h6>
               </div>
               <div class="col-lg-8">
                 <div class="text-justify">
@@ -486,12 +492,13 @@
   <div class="portfolio-modal modal fade " id="portfolioModal1a" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1aLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable  modal-xl" role="document">
       <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
+
         <div class="modal-body text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-8">
@@ -550,12 +557,13 @@
   <div class="portfolio-modal modal fade" id="portfolioModal1b" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1bLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
       <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
+
         <div class="modal-body text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-8">
@@ -613,12 +621,13 @@
   <div class="portfolio-modal modal fade" id="portfolioModal1c" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1cLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
       <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
+
         <div class="modal-body text-center ">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-8">
@@ -677,12 +686,13 @@
   <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
       <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
+
         <div class="modal-body text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
           <div class="container">
             <div class="row justify-content-center">
               <!-- Portfolio Modal - Title -->
@@ -738,13 +748,15 @@
   <div id="myModal">
     <div class="portfolio-modal modal fade" id="portfolioModal2a" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2aLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+
         <div class="modal-content">
-          <button type="button" class="close" data-toggle="modal" data-target="#portfolioModal2" data-dismiss="modal" aria-label="Close">
+          <!-- <button type="button" class="close" data-toggle="modal" data-target="#portfolioModal2" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">
               <i class="fas fa-times"></i>
             </span>
-          </button>
+          </button> -->
           <div class="modal-body text-center">
+
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -798,12 +810,13 @@
   <div class="portfolio-modal modal fade" id="portfolioModal2b" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2bLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
       <div class="modal-content">
-        <button type="button" class="close" data-toggle="modal" data-target="#portfolioModal2" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true" script="display: static;">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
+
         <div class="modal-body text-center ">
+          <button type="button" class="close" data-toggle="modal" data-target="#portfolioModal2" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" script="display: static;">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-8">
@@ -854,12 +867,13 @@
   <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
       <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
+
         <div class="modal-body text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
           <div class="container">
             <div class="row justify-content-center">
               <!-- <div class="col-lg-8"> -->
@@ -912,12 +926,13 @@
   <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
       <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
+
         <div class="modal-body text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-8">
@@ -978,12 +993,13 @@
   <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
       <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
+
         <div class="modal-body text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
           <div class="container">
             <div class="row justify-content-center">
               <!-- Portfolio Modal - Title -->
@@ -1050,12 +1066,13 @@
   <div class="portfolio-modal modal fade " id="portfolioModal5a" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5aLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
       <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
+
         <div class="modal-body text-center ">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
           <div class="container">
             <div class="row justify-content-center">
               <!-- Portfolio Modal - Title -->
@@ -1099,12 +1116,13 @@
   <div class="portfolio-modal modal fade " id="portfolioModal5b" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5bLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
       <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
+
         <div class="modal-body text-center ">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
           <div class="container">
             <div class="row justify-content-center">
               <!-- Portfolio Modal - Title -->
@@ -1148,12 +1166,13 @@
   <div class="portfolio-modal modal fade " id="portfolioModal5c" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5cLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
       <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
+
         <div class="modal-body text-center ">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
           <div class="container">
             <div class="row justify-content-center">
               <!-- Portfolio Modal - Title -->
@@ -1197,12 +1216,13 @@
   <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
       <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
+
         <div class="modal-body text-center ">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
           <div class="container">
             <div class="row justify-content-center ">
               <!-- Portfolio Modal - Title -->
