@@ -81,6 +81,11 @@ $('.close-modal', '#portfolioModal7').click(function() {
       });
   });
 
+  $('.carousel').carousel({
+    interval: 2000000
+  });
+
+  $('.carousel').bcSwipe({ threshold: 50 });
 
   var coll = document.getElementsByClassName("collapsible");
   var i;

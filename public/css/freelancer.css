@@ -5943,10 +5943,7 @@ a.close.disabled {
   color: #212529;
 }
 
-.carousel {
-  position: relative;
-  height: 900px;
-}
+
 
 .carousel.pointer-event {
   touch-action: pan-y;
@@ -6024,24 +6021,7 @@ a.close.disabled {
   }
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-  /* flex-wrap: wrap; */
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 10%;
-  color: #fff;
-  text-align: center;
-  opacity: 0.5;
-  transition: opacity 0.15s ease;
-  /* margin-left: -10rem;
-margin-right: -10rem; */
-}
+
 
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
@@ -6060,18 +6040,18 @@ margin-right: -10rem; */
 }
 
 .carousel-control-prev {
-  left: -100px;
+  left: -40px;
 }
 
 .carousel-control-next {
-  right: -100px;
+  right: -40px;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 40px;
   background: no-repeat 50% / 100% 100%;
 }
 

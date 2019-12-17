@@ -17,8 +17,6 @@
   font-size: 1.25rem;
 }
 
-
-
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -132,14 +130,20 @@
   font-weight: 500;
 }
 
-.portfolio-about {
-  font-size: 1.25rem;
-  font-weight: 500;
-  line-height: 2rem;
-  text-indent: 40px
+/* Slideshow container */
+.slideshow-container-about {
+  position: relative;
+  /* background: #f1f1f1f1; */
+  background: ##1abc9c !important
 }
 
-/* Slideshow container */
+/* Slides */
+.mySlides-about {
+  display: block;
+  padding: 40px;
+  text-align: center;
+}
+
 .slideshow-container {
   position: relative;
   background: #f1f1f1f1;
@@ -218,17 +222,7 @@
 
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Add an italic font style to all quotes */
-q {
-  font-style: italic;
-}
-
-/* Add a blue color to the author */
-.author {
-  color: cornflowerblue;
+  background-color: ##1abc9c !important
 }
 
 .skills-font {
@@ -247,14 +241,25 @@ q {
    padding-right: 5rem; */
 }
 
-.videoplayer{
+.videoplayer {}
 
+.modal-link {}
+
+.portfolio-about {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-indent: 40px;
+  margin: 3rem 2rem 1rem 2rem;
 }
 
-.modal-link{
-
+.carousel-control-prev {
+  left: -45px;
 }
 
+.carousel-control-next {
+  right: -45px;
+}
 
 @media (min-width: 576px) {
   .mod1-image-header {
@@ -269,6 +274,7 @@ q {
   .mod1-image-header:hover {
     text-decoration: underline;
   }
+
   .portfolio-lead-header {
     font-size: 1.15rem;
     padding-top: 1.5rem;
@@ -293,7 +299,37 @@ q {
     height: auto;
   }
 
+  .carousel-control-prev {
+    left: -50px;
+  }
 
+  .carousel-control-next {
+    right: -50px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    /* flex-wrap: wrap; */
+    position: absolute;
+    top: -240px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+    /* margin-left: -10rem;
+  margin-right: -10rem; */
+  }
+
+  .carousel {
+    position: relative;
+    height: 800px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -327,7 +363,6 @@ q {
     width: 70%;
     height: 70%;
     margin-top: 1rem;
-
   }
 
   .masthead-description {
@@ -398,6 +433,46 @@ q {
     font-weight: 300;
     line-height: normal;
   }
+
+  .portfolio-about {
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+    text-indent: 40px;
+    margin: 2rem 0rem 1rem 0rem;
+  }
+
+  .carousel-control-prev {
+    left: -35px;
+  }
+
+  .carousel-control-next {
+    right: -35px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    /* flex-wrap: wrap; */
+    position: absolute;
+    top: -240px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+    /* margin-left: -10rem;
+  margin-right: -10rem; */
+  }
+
+  .carousel {
+    position: relative;
+    height: 700px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -420,6 +495,45 @@ q {
     line-height: normal;
   }
 
+  .portfolio-about {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    text-indent: 40px;
+    margin: 2rem 0rem 1rem 0rem;
+  }
+
+  .carousel-control-prev {
+    left: -60px;
+  }
+
+  .carousel-control-next {
+    right: -60px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    /* flex-wrap: wrap; */
+    position: absolute;
+    top: -220px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+    /* margin-left: -10rem;
+  margin-right: -10rem; */
+  }
+
+  .carousel {
+    position: relative;
+    height: 700px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -427,6 +541,7 @@ q {
     font-size: 2rem;
     line-height: 1.75rem;
   }
+
   .portfolio-lead-header {
     font-size: 1.1rem;
     margin: 1rem 1rem 0rem 1rem;
@@ -457,11 +572,11 @@ q {
     padding-bottom: 0.5rem;
     cursor: pointer;
   }
+
   .masthead-desctiption {
     font-size: 1rem;
     font-weight: 500;
     margin: 0 0rem 0 0rem;
-
   }
 }
 
@@ -489,35 +604,81 @@ q {
     font-size: 1.5rem;
   }
 
-  .slide-row {
-    padding: 0px 160px;
-  }
-
-  .skill-list-font {
-    font-size: 1.25rem;
-    font-weight: 500;
-
-  }
-
-  .portfolio-lead {
-    font-size: 1.25rem;
-    font-weight: 500;
-  }
-  .portfolio-lead-header {
+  .masthead-description {
     font-size: 1.15rem;
-    margin: 1rem 8rem 0rem 8rem;
-    font-weight: bold;
-  }
-
-  .portfolio-lead-text {
-    font-size: 1.05rem;
-    padding-bottom: 0;
-    margin: 0rem 8rem 1rem 8rem;
-    font-weight: 300;
-    line-height: normal;
+    font-weight: 400;
+    margin: 0 6rem 0 6rem;
   }
 }
 
+.slide-row {
+  padding: 0px 160px;
+}
+
+.skill-list-font {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.portfolio-lead {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.portfolio-lead-header {
+  font-size: 1.15rem;
+  margin: 1rem 8rem 0rem 8rem;
+  font-weight: bold;
+}
+
+.portfolio-lead-text {
+  font-size: 1.05rem;
+  padding-bottom: 0;
+  margin: 0rem 8rem 1rem 8rem;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.portfolio-about {
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.85rem;
+  text-indent: 40px;
+  margin: 3rem 6rem 0rem 6rem;
+}
+
+.carousel-control-prev {
+  left: -60px;
+}
+
+.carousel-control-next {
+  right: -60px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  /* flex-wrap: wrap; */
+  position: absolute;
+  top: -220px;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+  /* margin-left: -10rem;
+  margin-right: -10rem; */
+}
+
+.carousel {
+  position: relative;
+  height: 700px;
+}
+}
 
 @media (min-width: 1200px) {
   .portfolio-lead-header {
