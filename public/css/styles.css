@@ -17,74 +17,20 @@
   font-size: 1.25rem;
 }
 
-.masthead-description {
-  font-size: 1.15rem;
-  font-weight: 500;
-  margin: 0 6rem 0 6rem;
 
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
-
-
-@media (max-width: 568px) {
-  .masthead {
-    padding-top: calc(1rem + 74px);
-    padding-bottom: 2rem;
-  }
-
-  .masthead .masthead-heading {
-    font-size: 1.7rem;
-    line-height: 2rem;
-    padding: 2rem 0rem 1rem 0rem;
-  }
-
-  .masthead .masthead-subheading {
-    font-size: 1.15rem;
-  }
-
-  .masthead .masthead-avatar {
-    width: 60%;
-    height: 60%;
-    margin-top: 1rem;
-  }
-
-  .masthead-description {
-    font-size: 1rem;
-    font-weight: 500;
-    margin: 0 0rem 0 0rem;
-
-  }
-  .mod1-image-header{
-    font-size: 1.15rem;
-    font-weight: 500;
-    margin-bottom: 0;
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .masthead {
-    padding-top: 6rem;
-    padding-bottom: 6.5rem;
-  }
-
-  .masthead .masthead-heading {
-    font-size: 2.5rem;
-    line-height: 3.5rem;
-  }
-
-  .masthead .masthead-subheading {
-    font-size: 1.5rem;
-  }
-}
-
-.mod1a-image-header{
-  font-size: 1.25rem;
-    font-weight: 500;
-  margin-bottom: 3rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.img-thumbnail2 {
+  padding: 0.5rem;
+  background-color: #fff;
+  border: 0.125rem solid #dee2e6;
+  border-radius: 0.5rem;
+  max-width: 100%;
+  height: auto;
 }
 
 .portfolio {
@@ -133,7 +79,6 @@
   opacity: 1;
 }
 
-
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
@@ -143,72 +88,9 @@
 }
 
 .portfolio-modal .portfolio-modal-title {
-  font-size: 2.5rem;
-  line-height: 2.25rem;
+  font-size: 2.25rem;
+  line-height: 2rem;
 }
-@media (max-width: 568px){
-  .portfolio-modal .portfolio-modal-title {
-    font-size: 1.75rem;
-    line-height: 1.5rem;
-  }
-  .modal-body {
-    position: relative;
-    flex: 1 1 auto;
-    padding: 1rem .8rem;
-  }
-  .portfolio-modal .close {
-    position: absolute;
-    z-index: 0;
-    right: 1.5rem;
-    top: 1rem;
-    font-size: 3rem;
-    line-height: 3rem;
-    color: #1abc9c;
-    opacity: 1;
-  }
-
-
-  /* // 
-  // .portfolio-modal .close- {
-  //   position: absolute;
-  //   z-index: 0;
-  //   right: .7rem;
-  //   top: 1rem;
-  //   font-size: 2.5rem;
-  //   line-height: 3rem;
-  //   color: #1abc9c;
-  //   opacity: 1;
-  // }
-  // .portfolio-modal .close {
-  //   position: absolute;
-  //   z-index: 1;
-  //   right: .7rem;
-  //   top: 1rem;
-  //   font-size: 2.5rem;
-  //   line-height: 3rem;
-  //   color: #1abc9c;
-  //   opacity: 1;
-  // } */
-
-}
-
-@media (min-width: 992px) {
-  .portfolio-modal .portfolio-modal-title {
-    font-size: 2.75rem;
-    line-height: 2.5rem;
-  }
-}
-.portfolio-modal .close {
-  position: absolute;
-  z-index: 0;
-  right: 1.5rem;
-  top: 1rem;
-  font-size: 3rem;
-  line-height: 3rem;
-  color: #1abc9c;
-  opacity: 1;
-}
-
 
 /* OverlayEffects */
 .mod-item {
@@ -263,29 +145,6 @@
   background: #f1f1f1f1;
 }
 
-@media (min-width: 992px) {
-  .slide-row {
-    padding: 0px 160px;
-  }
-
-  .skill-list-font {
-    font-size: 5rem;
-    font-weight: 500;
-  }
-
-  .portfolio-lead {
-    font-size: 1.25rem;
-    font-weight: 500;
-  }
-}
-
-@media (min-width: 768px) {
-  .skill-list-font {
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-}
-
 /* Slides */
 .mySlides {
   display: block;
@@ -294,8 +153,9 @@
 }
 
 .skill-list-font {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 400;
+  line-height: 1.5;
 }
 
 .skill-list-font-courses {
@@ -387,7 +247,117 @@ q {
    padding-right: 5rem; */
 }
 
+.videoplayer{
+
+}
+
+.modal-link{
+
+}
+
+
+@media (min-width: 576px) {
+  .mod1-image-header {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  .mod1-image-header:hover {
+    text-decoration: underline;
+  }
+  .portfolio-lead-header {
+    font-size: 1.15rem;
+    padding-top: 1.5rem;
+    margin: 2rem 2rem 2rem 2rem;
+    font-weight: bold;
+  }
+
+  .portfolio-lead-text {
+    font-size: 1rem;
+    padding-bottom: 0;
+    margin: 2rem 2rem 2rem 2rem;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .img-thumbnail {
+    padding: 0.5rem;
+    background-color: #fff;
+    border: 0.125rem solid #dee2e6;
+    border-radius: 0.5rem;
+    max-width: 100%;
+    height: auto;
+  }
+
+
+}
+
 @media (max-width: 576px) {
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 1.75rem;
+    line-height: 1.5rem;
+  }
+
+  .modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem .8rem;
+  }
+
+  .masthead {
+    padding-top: calc(1rem + 74px);
+    padding-bottom: 2rem;
+  }
+
+  .masthead .masthead-heading {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    padding: 2rem 0rem 1rem 0rem;
+  }
+
+  .masthead .masthead-subheading {
+    font-size: 1.15rem;
+  }
+
+  .masthead .masthead-avatar {
+    width: 70%;
+    height: 70%;
+    margin-top: 1rem;
+
+  }
+
+  .masthead-description {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0rem 0 0rem;
+  }
+
+  .mod1-image-header {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    padding-top: .2rem;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+  }
+
+  .mod1-image-header:hover {
+    text-decoration: underline;
+  }
+
+  .img-thumbnail {
+    padding: 0rem;
+    background-color: #fff;
+    border: 0.2rem solid #dee2e6;
+    border-radius: 0.1rem;
+    max-width: 100%;
+    height: auto;
+  }
+
   .skills-font {
     font-size: 1.15rem;
     line-height: 1.25rem;
@@ -403,6 +373,167 @@ q {
     /* padding-left: 5rem;
      padding-right: 5rem; */
   }
+
+  .portfolio-lead-header {
+    font-size: 1.15rem;
+    padding-top: 1.5rem;
+    margin-left: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+
+  .portfolio-lead-text {
+    font-size: 1rem;
+    padding-bottom: 0;
+    margin: 0rem 1rem 2rem 1rem;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .portfolio-lead-subheader {
+    font-size: .9rem;
+    padding-bottom: 0;
+    margin: 0rem 1rem 2rem 1rem;
+    font-weight: 300;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 768px) {
+  .skill-list-font {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .portfolio-lead-header {
+    font-size: 1.15rem;
+    margin: 1.25rem 4rem 0rem 4rem;
+    font-weight: bold;
+  }
+
+  .portfolio-lead-text {
+    font-size: 1rem;
+    padding-bottom: 0;
+    margin: 0rem 4rem 1rem 4rem;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 2rem;
+    line-height: 1.75rem;
+  }
+  .portfolio-lead-header {
+    font-size: 1.1rem;
+    margin: 1rem 1rem 0rem 1rem;
+    font-weight: bold;
+  }
+
+  .portfolio-lead-text {
+    font-size: 1rem;
+    padding-bottom: 0;
+    margin: 0rem 1rem 1rem 1rem;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .portfolio-lead-subheader {
+    font-size: 1rem;
+    padding-bottom: 0;
+    margin: 0rem 1rem 2rem 1rem;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .mod1-image-header {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    padding-top: .2rem;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  .masthead-desctiption {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0rem 0 0rem;
+
+  }
+}
+
+.mod1-image-header:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+
+  .masthead {
+    padding-top: 6rem;
+    padding-bottom: 6.5rem;
+  }
+
+  .masthead .masthead-heading {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+
+  .masthead .masthead-subheading {
+    font-size: 1.5rem;
+  }
+
+  .slide-row {
+    padding: 0px 160px;
+  }
+
+  .skill-list-font {
+    font-size: 1.25rem;
+    font-weight: 500;
+
+  }
+
+  .portfolio-lead {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .portfolio-lead-header {
+    font-size: 1.15rem;
+    margin: 1rem 8rem 0rem 8rem;
+    font-weight: bold;
+  }
+
+  .portfolio-lead-text {
+    font-size: 1.05rem;
+    padding-bottom: 0;
+    margin: 0rem 8rem 1rem 8rem;
+    font-weight: 300;
+    line-height: normal;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .portfolio-lead-header {
+    font-size: 1.25rem;
+    margin: 1rem 10rem 0rem 10rem;
+    font-weight: bold;
+  }
+
+  .portfolio-lead-text {
+    font-size: 1.05rem;
+    padding-bottom: 0;
+    margin: 0rem 10rem 1rem 10rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+  }
+}
 }
 
 /* @media (max-width: 576px) {
