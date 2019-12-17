@@ -5,7 +5,7 @@
 
 .masthead .masthead-avatar {
   width: 20rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .masthead .masthead-heading {
@@ -128,6 +128,15 @@
 .portfolio-lead {
   font-size: 1.15rem;
   font-weight: 500;
+}
+
+.portfolio-lead-header {
+  font-size: 1.15rem;
+  padding-top: 1.5rem;
+  margin-left: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-weight: bold;
 }
 
 /* Slideshow container */
@@ -269,6 +278,7 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     cursor: pointer;
+    color: #2c3e50;
   }
 
   .mod1-image-header:hover {
@@ -278,14 +288,14 @@
   .portfolio-lead-header {
     font-size: 1.15rem;
     padding-top: 1.5rem;
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 0rem 0rem 1rem 0rem;
     font-weight: bold;
   }
 
   .portfolio-lead-text {
     font-size: 1rem;
     padding-bottom: 0;
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 1rem 0rem 2rem 0rem;
     font-weight: 300;
     line-height: normal;
   }
@@ -328,11 +338,58 @@
 
   .carousel {
     position: relative;
-    height: 800px;
+    height: 700px;
   }
+
+  .portfolio-about {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    text-indent: 40px;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  .portfolio-about-header {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin: 0rem 1.5rem 0rem 1.5rem;
+  }
+
+  .skill-list-font-courses {
+    font-size: 1.009rem;
+    font-weight: 400;
+    margin: 0.5rem 1.5rem 1rem 1.5rem;
+  }
+
+  .portfolio-game-text {
+    font-size: 1rem;
+    padding-bottom: 0;
+    margin: 0rem 2rem 1rem 2rem;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+
+  .portfolio-game-header {
+    font-size: 1.1rem;
+    margin: 1rem 2rem 0rem 2rem;
+    font-weight: bold;
+  }
+
+
 }
 
 @media (max-width: 576px) {
+.corner-close{
+  font-size: .5em;
+  left: 10px;
+}
+
+  .skill-list-font-courses {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0rem 1rem 1.5rem 1rem;
+  }
+
   .portfolio-modal .portfolio-modal-title {
     font-size: 1.75rem;
     line-height: 1.5rem;
@@ -352,7 +409,7 @@
   .masthead .masthead-heading {
     font-size: 1.7rem;
     line-height: 2rem;
-    padding: 2rem 0rem 1rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
   }
 
   .masthead .masthead-subheading {
@@ -360,9 +417,8 @@
   }
 
   .masthead .masthead-avatar {
-    width: 70%;
-    height: 70%;
-    margin-top: 1rem;
+    width: 20rem;
+    margin-top: 0rem;
   }
 
   .masthead-description {
@@ -378,6 +434,7 @@
     padding-top: .2rem;
     padding-bottom: 0.5rem;
     cursor: pointer;
+    color: #2c3e50;
   }
 
   .mod1-image-header:hover {
@@ -409,21 +466,28 @@
      padding-right: 5rem; */
   }
 
-  .portfolio-lead-header {
-    font-size: 1.15rem;
-    padding-top: 1.5rem;
-    margin-left: 1rem;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    font-weight: bold;
-  }
+
 
   .portfolio-lead-text {
     font-size: 1rem;
     padding-bottom: 0;
     margin: 0rem 1rem 2rem 1rem;
-    font-weight: 300;
-    line-height: normal;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+
+  .portfolio-game-text {
+    font-size: 1rem;
+    padding-bottom: 0;
+    margin: 0rem 1rem 2rem 1rem;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+
+  .portfolio-game-header {
+    font-size: 1.1rem;
+    margin: 1rem 1rem 0rem 1rem;
+    font-weight: bold;
   }
 
   .portfolio-lead-subheader {
@@ -435,7 +499,7 @@
   }
 
   .portfolio-about {
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 300;
     line-height: 1.4rem;
     text-indent: 40px;
@@ -473,6 +537,17 @@
     position: relative;
     height: 700px;
   }
+
+  .portfolio-about-header {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+
+
+
+
 }
 
 @media (min-width: 768px) {
@@ -481,18 +556,30 @@
     font-weight: 500;
   }
 
+  .masthead .masthead-avatar {
+    width: 20rem;
+    margin-top: 0rem;
+    padding-bottom: 1rem;
+  }
+
   .portfolio-lead-header {
     font-size: 1.15rem;
     margin: 1.25rem 4rem 0rem 4rem;
     font-weight: bold;
   }
 
+  .portfolio-lead-header {
+    font-size: 1.20rem;
+    margin: 2rem 3rem 1rem 3rem;
+    font-weight: bold;
+  }
+
   .portfolio-lead-text {
-    font-size: 1rem;
+    font-size: 1.10rem;
     padding-bottom: 0;
-    margin: 0rem 4rem 1rem 4rem;
-    font-weight: 300;
-    line-height: normal;
+    margin: 1rem 3rem 3rem 3rem;
+    font-weight: 500;
+    line-height: 1.75;
   }
 
   .portfolio-about {
@@ -501,6 +588,12 @@
     line-height: 1.75rem;
     text-indent: 40px;
     margin: 2rem 0rem 1rem 0rem;
+  }
+  .portfolio-about-header {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin: 0rem 0rem 0rem 0rem;
   }
 
   .carousel-control-prev {
@@ -534,6 +627,33 @@
     position: relative;
     height: 700px;
   }
+
+  .skill-list-font-courses {
+    font-size: 1.10rem;
+    font-weight: 400;
+    margin: 1rem 3rem 2rem 3rem;
+  }
+
+  .portfolio-game-text {
+    font-size: 1rem;
+    padding-bottom: 0;
+    margin: 0rem 0rem 1rem 2rem;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+
+  .portfolio-game-header {
+    font-size: 1.1rem;
+    margin: 1rem 0rem 0rem 0rem;
+    font-weight: bold;
+  }
+
+  .masthead-desctiption {
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin: 0 0rem 0 0rem;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -542,19 +662,7 @@
     line-height: 1.75rem;
   }
 
-  .portfolio-lead-header {
-    font-size: 1.1rem;
-    margin: 1rem 1rem 0rem 1rem;
-    font-weight: bold;
-  }
 
-  .portfolio-lead-text {
-    font-size: 1rem;
-    padding-bottom: 0;
-    margin: 0rem 1rem 1rem 1rem;
-    font-weight: 300;
-    line-height: normal;
-  }
 
   .portfolio-lead-subheader {
     font-size: 1rem;
@@ -571,13 +679,10 @@
     padding-top: .2rem;
     padding-bottom: 0.5rem;
     cursor: pointer;
+    color: #2c3e50;
   }
 
-  .masthead-desctiption {
-    font-size: 1rem;
-    font-weight: 500;
-    margin: 0 0rem 0 0rem;
-  }
+
 }
 
 .mod1-image-header:hover {
@@ -606,7 +711,7 @@
 
   .masthead-description {
     font-size: 1.15rem;
-    font-weight: 400;
+    font-weight: 500;
     margin: 0 6rem 0 6rem;
   }
 
@@ -626,17 +731,17 @@
 }
 
 .portfolio-lead-header {
-  font-size: 1.15rem;
-  margin: 1rem 8rem 0rem 8rem;
+  font-size: 1.25rem;
+  margin: 1rem 8rem 1rem 8rem;
   font-weight: bold;
 }
 
 .portfolio-lead-text {
-  font-size: 1.05rem;
+  font-size: 1.10rem;
   padding-bottom: 0;
-  margin: 0rem 8rem 1rem 8rem;
-  font-weight: 300;
-  line-height: normal;
+  margin: 0rem 8rem 2rem 8rem;
+  font-weight: 500;
+  line-height: 1.75rem;
 }
 
 .portfolio-about {
@@ -645,6 +750,13 @@
   line-height: 1.85rem;
   text-indent: 40px;
   margin: 3rem 6rem 0rem 6rem;
+}
+
+.portfolio-about-header {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  margin: 0rem 0rem 0rem 0rem;
 }
 
 .carousel-control-prev {
@@ -678,24 +790,54 @@
   position: relative;
   height: 700px;
 }
+
+.skill-list-font-courses {
+  font-size: 1.10rem;
+  font-weight: 400;
+  margin: 1rem 6rem 0rem 6rem;
+}
+.portfolio-game-text {
+  font-size: 1.05rem;
+  padding-bottom: 0;
+  margin: 0rem 1rem 1rem 3rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.portfolio-game-header {
+  font-size: 1.15rem;
+  margin: 1rem 0rem 0rem 0rem;
+  font-weight: bold;
+}
+
 }
 
 @media (min-width: 1200px) {
+.masthead  .masthead-avatar{
+    width: 20rem;
+    margin-top: 1.5rem;
+  }
   .portfolio-lead-header {
     font-size: 1.25rem;
-    margin: 1rem 10rem 0rem 10rem;
+    margin: 1rem 8rem 1rem 8rem;
     font-weight: bold;
   }
 
   .portfolio-lead-text {
-    font-size: 1.05rem;
-    padding-bottom: 0;
-    margin: 0rem 10rem 1rem 10rem;
-    font-weight: 300;
-    line-height: 1.5rem;
+    font-size: 1.25rem;
+    margin: 0rem 8rem 2rem 8rem;
+    font-weight: 500;
+    line-height: 1.75rem;
   }
+
+  .masthead-description {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0 12rem 0 12rem;
+  }
+
 }
-}
+
 
 /* @media (max-width: 576px) {
   .col-sm-12 {
