@@ -270,7 +270,7 @@
   .masthead {
     padding-top: calc(1rem + 50px);
     padding-bottom: 8rem;
-  
+
   }
 
   .mod1-image-header {
@@ -435,7 +435,7 @@
     font-weight: 500;
     margin: 0 0rem 0 0rem;
     text-indent: 40px;
-    text-align: left;
+    text-align: center;
   }
 
   .mod1-image-header {
@@ -548,7 +548,7 @@
 
   .carousel {
     position: relative;
-    height: 700px;
+    height: 800px;
   }
 
   .portfolio-about-header {
