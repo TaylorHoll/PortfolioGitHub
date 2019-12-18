@@ -1,21 +1,17 @@
-.masthead {
-  padding-top: calc(1rem + 74px);
-  padding-bottom: 8rem;
-}
 
 .masthead .masthead-avatar {
   width: 20rem;
   margin-top: 1rem;
 }
 
-.masthead .masthead-heading {
+/* .masthead .masthead-heading {
   font-size: 2rem;
   line-height: 2.75rem;
 }
 
 .masthead .masthead-subheading {
   font-size: 1.25rem;
-}
+} */
 
 .img-fluid {
   max-width: 100%;
@@ -271,6 +267,12 @@
 }
 
 @media (min-width: 576px) {
+  .masthead {
+    padding-top: calc(1rem + 50px);
+    padding-bottom: 8rem;
+  
+  }
+
   .mod1-image-header {
     font-size: 1rem;
     font-weight: 500;
@@ -395,6 +397,11 @@
     line-height: 1.5rem;
   }
 
+  /* .portfolio-modal .portfolio-modal-title {
+    font-size: 2rem;
+    line-height: 1.75rem;
+  } */
+
   .modal-body {
     position: relative;
     flex: 1 1 auto;
@@ -402,14 +409,15 @@
   }
 
   .masthead {
-    padding-top: calc(1rem + 74px);
+    padding-top: calc(1rem + 50px);
     padding-bottom: 2rem;
+
   }
 
   .masthead .masthead-heading {
     font-size: 1.7rem;
     line-height: 2rem;
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 2rem 0rem 1rem 0rem;
   }
 
   .masthead .masthead-subheading {
@@ -417,7 +425,8 @@
   }
 
   .masthead .masthead-avatar {
-    width: 20rem;
+    width: 70%;
+    height: auto;
     margin-top: 0rem;
   }
 
@@ -425,6 +434,8 @@
     font-size: 1rem;
     font-weight: 500;
     margin: 0 0rem 0 0rem;
+    text-indent: 40px;
+    text-align: left;
   }
 
   .mod1-image-header {
@@ -436,6 +447,8 @@
     cursor: pointer;
     color: #2c3e50;
   }
+
+
 
   .mod1-image-header:hover {
     text-decoration: underline;
@@ -494,7 +507,7 @@
     font-size: .9rem;
     padding-bottom: 0;
     margin: 0rem 1rem 2rem 1rem;
-    font-weight: 300;
+    font-weight: 500;
     line-height: normal;
   }
 
@@ -548,16 +561,48 @@
 
 
 
+
+
+
+
+
+
 }
 
 @media (min-width: 768px) {
+  /* .portfolio-modal .portfolio-modal-title {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  } */
+
+  /* .masthead {
+    padding-top: 6rem;
+    padding-bottom: 6.5rem;
+  } */
+
+  .masthead .masthead-heading {
+    font-size: 2rem;
+    line-height: 2.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .masthead .masthead-subheading {
+    font-size: 1.25rem;
+  }
+
+  .masthead-description {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 3rem 0 3rem;
+    line-height: 1.75rem;
+  }
   .skill-list-font {
     font-size: 1.5rem;
     font-weight: 500;
   }
 
   .masthead .masthead-avatar {
-    width: 20rem;
+      width: 20rem;
     margin-top: 0rem;
     padding-bottom: 1rem;
   }
@@ -657,30 +702,7 @@
 }
 
 @media (max-width: 768px) {
-  .portfolio-modal .portfolio-modal-title {
-    font-size: 2rem;
-    line-height: 1.75rem;
-  }
 
-
-
-  .portfolio-lead-subheader {
-    font-size: 1rem;
-    padding-bottom: 0;
-    margin: 0rem 1rem 2rem 1rem;
-    font-weight: 300;
-    line-height: normal;
-  }
-
-  .mod1-image-header {
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: .5rem;
-    padding-top: .2rem;
-    padding-bottom: 0.5rem;
-    cursor: pointer;
-    color: #2c3e50;
-  }
 
 
 }
