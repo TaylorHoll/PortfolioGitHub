@@ -13,6 +13,12 @@
     "bcswipe": "^2.0.3",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "heroku-ssl-redirect": "0.0.4",
+    "jquery": "^3.3.1",
     "nodemailer": "^6.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://taylorportfolio.herokuapp.com/"
   }
 }
