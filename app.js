@@ -18,7 +18,7 @@ app.get("/", function(req, res){
   res.sendFile(__dirname + "/index.html");
 });
 
-app.get("http://taylorportfolio.herokuapp.com/.well-known/acme-challenge/HCZK0VMw5DUz0bduM0Zn_7fovpAiqxl6QqfBHsnwCkc", function(req, res){
+app.get("/.well-known/acme-challenge/HCZK0VMw5DUz0bduM0Zn_7fovpAiqxl6QqfBHsnwCkc", function(req, res){
 
 });
 
