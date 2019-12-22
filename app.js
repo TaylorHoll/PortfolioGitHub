@@ -10,10 +10,16 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public"));
 app.use(express.static(__dirname + "/vendor"));
+app.use(express.static(__dirname + "/.well-known"));
+app.use(express.static(__dirname + "/acme-challenge"));
 
 
 app.get("/", function(req, res){
   res.sendFile(__dirname + "/index.html");
+});
+
+app.get("http://taylorportfolio.herokuapp.com/.well-known/acme-challenge/HCZK0VMw5DUz0bduM0Zn_7fovpAiqxl6QqfBHsnwCkc", function(req, res){
+
 });
 
 //if statement allows running locally as well as on keroku
