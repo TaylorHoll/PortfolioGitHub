@@ -3,12 +3,28 @@
 
 <head>
   <!-- Anti-flicker snippet (recommended)  -->
-<style>.async-hide { opacity: 0 !important} </style>
-<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
-h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
-(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
-})(window,document.documentElement,'async-hide','dataLayer',4000,
-{'UA-154873980-1':true});</script>
+  <style>
+    .async-hide {
+      opacity: 0 !important
+    }
+  </style>
+  <script>
+    (function(a, s, y, n, c, h, i, d, e) {
+      s.className += ' ' + y;
+      h.start = 1 * new Date;
+      h.end = i = function() {
+        s.className = s.className.replace(RegExp(' ?' + y), '')
+      };
+      (a[n] = a[n] || []).hide = h;
+      setTimeout(function() {
+        i();
+        h.end = null
+      }, c);
+      h.timeout = c;
+    })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
+      'UA-154873980-1': true
+    });
+  </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154873980-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -18,14 +34,16 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     }
     gtag('js', new Date());
 
-    gtag('config', 'UA-154873980-1', { 'optimize_id': 'GTM-WRL5RBP'});
+    gtag('config', 'UA-154873980-1', {
+      'optimize_id': 'GTM-WRL5RBP'
+    });
   </script>
   <meta name="have-i-been-pwned-verification" value="ccf3cc81a4d339f0c66908daefce4011">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Portfolio">
-  <meta name="author" content="Taylor Holloway">
+  <meta name="description" content="">
+  <meta name="author" content="Taylor Holloway started with">
   <title>Taylor H. Portfolio</title>
 
   <!-- Custom fonts for this theme -->
@@ -236,7 +254,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 
 
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -348,17 +366,17 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         <div class="col-lg-8 mx-auto text-center">
 
           <h3 class="portfolio-lead">I hope you've enjoyed exploring the variety of things I've done in a field I absolutely love.</h3> <br>
-            <h3 class="portfolio-lead">You can contact me using my email at <a href="mailto:taylorholloway.dev@gmail.com">taylorholloway.dev@gmail.com</a> </h3>
-              <h3 class="portfolio-lead">or you can reach me on LinkedIn which is listed below.</h3> <br>
-                  <h3 class="portfolio-lead">along with my LinkedIn is also my Github. I am in the process of cleaing up, and uploading a ton of different prjects over the years. </h3>
-                <h3 class="portfolio-lead">For instance this site is still being constructed to my liking as well. I'll end up spending all waking hours on it if I dont put it up though, and so check back in!</h3>
-                  </p><br> <br>
-                  <br> <br>
+          <h3 class="portfolio-lead">You can contact me using my email at <a href="mailto:taylorholloway.dev@gmail.com">taylorholloway.dev@gmail.com</a> </h3>
+          <h3 class="portfolio-lead">or you can reach me on LinkedIn which is listed below.</h3> <br>
+          <h3 class="portfolio-lead">along with my LinkedIn is also my Github. I am in the process of cleaing up, and uploading a ton of different prjects over the years. </h3>
+          <h3 class="portfolio-lead">For instance this site is still being constructed to my liking as well. I'll end up spending all waking hours on it if I dont put it up though, and so check back in!</h3>
+          </p><br> <br>
+          <br> <br>
 
-                  <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                  <!-- <form name="sentMessage" id="contactForm" novalidate="novalidate"> -->
+          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+          <!-- <form name="sentMessage" id="contactForm" novalidate="novalidate"> -->
 
-                  <!-- <form name="sentMessage" id="contactForm" novalidate action="js/contact_me.php">
+          <!-- <form name="sentMessage" id="contactForm" novalidate action="js/contact_me.php">
 
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -840,8 +858,8 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 
                     <div class="vidyard-div-YbtgbbNtFgT3VeXEp6FV9G" role="application" aria-label="media player" style="position: relative; padding-bottom: 56.25%; height: 0px; overflow: hidden; max-width: 100%;">
                       <iframe id="demoVideo" allow="autoplay; fullscreen;" allowfullscreen="" allowtransparency="true" aria-label="Video" class="vidyard-iframe-YbtgbbNtFgT3VeXEp6FV9G" frameborder="0" height="100%" width="100%" scrolling="no"
-                        src="https://play.vidyard.com/dsvvTjFLnEzm5omtSofv7s?disable_popouts=1&amp;v=4.2.19&amp;type=inline&preload=none&quality=1080p&force_https=1&preload=none&quality=1080p" title="Video" style="opacity: 1; background-color: transparent; position: absolute; top: 0px; left: 0px;"
-                        __idm_id__="709475330">
+                        src="https://play.vidyard.com/dsvvTjFLnEzm5omtSofv7s?disable_popouts=1&amp;v=4.2.19&amp;type=inline&preload=none&quality=1080p&force_https=1&preload=none&quality=1080p" title="Video"
+                        style="opacity: 1; background-color: transparent; position: absolute; top: 0px; left: 0px;" __idm_id__="709475330">
                       </iframe>
                     </div>
                   </div>
@@ -970,7 +988,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                   <p class="font-weight-bolder portfolio-lead text-center mt-1">Security Audits</p>
                   <p class="portfolio-lead text-center mx-auto">After the 2018 elections I have been doing constant audits for people/buisnesses by utilizing the tools I've learned. Since I have found even more tools.</p>
                   <!-- <p class="modal-text text-left ">After graduating from college I joined an organization that sent young bright minds into high profile political campaings to protect information, communications, and prevent leaks.
-                      I leared invaluable things about security, but also coming in as an outsider, and becoming part of a family with my team. You can see more in the Education &nbsp; Experience section. </p> -->
+                      I leared invaluable things about security, but also coming in as an outsider, and becoming part of a family with my team. You can see more in the Education  Experience section. </p> -->
                 </div>
               </div>
               <div class="pt-2">
@@ -1014,13 +1032,14 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                 <div class="vidyard-player-container" uuid="JJWVWw3w9ypfErhmKdZr9F" style="margin:table-row; width: 100%; height: auto;overflow: hidden;display: block;">
                   <div class="vidyard-div-JJWVWw3w9ypfErhmKdZr9F" role="application" aria-label="media player" style="position: relative; padding-bottom: 56.25%; padding-left: 10%; padding-right: 10%; height: 0px; overflow: hidden; max-width: 100%;">
                     <iframe allow="fullscreen;" allowfullscreen="" allowtransparency="true" aria-label="Video" class="vidyard-iframe-JJWVWw3w9ypfErhmKdZr9F" frameborder="0" height="100%" width="100%" scrolling="yes"
-                      src="https://play.vidyard.com/JJWVWw3w9ypfErhmKdZr9F?disable_popouts=1&amp;v=4.2.19&amp;type=inline&preload=none&quality=1080p&force_https=1"  title="Video" style="opacity: 1; background-color: transparent; position: absolute; top: 0px; left: 0px;">
+                      src="https://play.vidyard.com/JJWVWw3w9ypfErhmKdZr9F?disable_popouts=1&amp;v=4.2.19&amp;type=inline&preload=none&quality=1080p&force_https=1" title="Video"
+                      style="opacity: 1; background-color: transparent; position: absolute; top: 0px; left: 0px;">
                     </iframe>
                   </div>
                 </div>
                 <!-- <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
                 <img style="width: 80%; margin: 20px; display: relative;" class="vidyard-player-embed" src="https://play.vidyard.com/JJWVWw3w9ypfErhmKdZr9F.jpg?preload=none&quality=1080p&force_https=1" data-uuid="JJWVWw3w9ypfErhmKdZr9F" data-v="4" -->
-                  data-type="inline" />
+                data-type="inline" />
                 <p class="font-weight-bolder portfolio-lead-header pt-2">Plaga</p>
                 <p class="portfolio-game-text">
                   <span class="font-weight-bold">Tools Used: </span> C#, Unity, Photoshop, Blender, and Monoscript.
@@ -1290,11 +1309,11 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
   <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
       <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">
             <i class=" fas fa-times corner-close"></i>
           </span>
-        </button>
+        </button> -->
         <div class="modal-body text-center ">
 
           <div class="container">
@@ -1310,88 +1329,125 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                 <div class="divider-custom-line"></div>
               </div>
               <!-- Portfolio Modal - Image -->
-              <div class="col-lg-12">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-12">
 
-                <p class="portfolio-lead-header font-weight-bold pt-0 mt-0">Programming Languages, Tools, and Frameworks</p>
-                <div class="row ">
-                  <div class="portfolio-lead align-content-center">
-                    <p class="skill-list-font-courses pt-1 mt-0">
-                      C#&nbsp; &nvHarr; &nbsp;
-                      &nbsp; Python&nbsp; &nvHarr; &nbsp;
-                      &nbsp; C++&nbsp; &nvHarr; &nbsp;
-                      &nbsp; Java&nbsp; &nvHarr; &nbsp;
-                      &nbsp; C&nbsp; &nvHarr; &nbsp;
-                      &nbsp; Visual Basic&nbsp; &nvHarr; &nbsp;
-                      &nbsp; HTML5&nbsp; &nvHarr; &nbsp;
-                      &nbsp;CSS&nbsp; &nvHarr; &nbsp;
-                      &nbsp;Bootstrap&nbsp; &nvHarr; &nbsp;
-                      &nbsp;JavaScript&nbsp; &nvHarr; &nbsp;
-                      &nbsp;Node.js&nbsp; &nvHarr; &nbsp;
-                      &nbsp;REST&nbsp; &nvHarr; &nbsp;
-                      &nbsp;React.js&nbsp; &nvHarr; &nbsp;
-                      &nbsp;Express.js&nbsp; &nvHarr; &nbsp;
-                      &nbsp;Git&nbsp; &nvHarr; &nbsp;
-                      &nbsp; PHP&nbsp; &nvHarr; &nbsp;
-                      &nbsp; Atom&nbsp; &nvHarr; &nbsp;
-                      &nbsp;Unity&nbsp; &nvHarr; &nbsp;
-                      &nbsp; SQL&nbsp; &nvHarr; &nbsp;
-                      &nbsp; Heroku&nbsp; &nvHarr; &nbsp;
-                      &nbsp; npm&nbsp; &nvHarr; &nbsp;
-                      &nbsp;MongoDB&nbsp; &nvHarr; &nbsp;
-                      &nbsp; Mongoose&nbsp; &nvHarr; &nbsp;
-                      &nbsp;EJS&nbsp; &nvHarr; &nbsp;
-                      &nbsp;JSON&nbsp; &nvHarr; &nbsp;
-                      &nbsp;Gulp&nbsp; &nvHarr; &nbsp;
-                      &nbsp; UNIX&nbsp; &nvHarr; &nbsp;
-                      &nbsp;VB.NET&nbsp; &nvHarr; &nbsp;
-                      &nbsp; C#.NET&nbsp; &nvHarr; &nbsp;
-                      &nbsp; PyQt5&nbsp; &nvHarr; &nbsp;
-                      &nbsp; Github&nbsp; &nvHarr; &nbsp;
-                      &nbsp; BitBucket &nbsp; &nvHarr; &nbsp;
-                      &nbsp; SQL &nbsp; &nvHarr; &nbsp;
-                      &nbsp;Photoshop&nbsp; &nvHarr; &nbsp;
-                      &nbsp;Visual Studio&nbsp; &nvHarr; &nbsp;
-                      &nbsp; OpenGL</p>
+                    <div class="container mb-5">
+                      <button class="btn btn-primary"  href="#" data-dismiss="modal">
+                        <i class="fas fa-times fa-fw"></i>
+                    
+                      </button>
+                    </div>
+
+
+                    <div id="carouselSkills" class="carousel slide" data-ride="carousel" script="height: 200px;">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselSkills" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselSkills" data-slide-to="1"></li>
+                        <li data-target="#carouselSkills" data-slide-to="2"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="justify-content-center">
+                            <p class="portfolio-lead-header font-weight-bold pt-0 mt-3">Programming Languages, Tools, and Frameworks</p>
+                            <p class="skill-list-font-courses text-center pt-0 mt-1">C# -
+                              Python -
+                              C++ -
+                              Java -
+                              C -
+                              Visual Basic -
+                              HTML5 -
+                              CSS -
+                              Bootstrap -
+                              JavaScript -
+                              Node.js -
+                              REST -
+                              React.js -
+                              Express.js -
+                              Git -
+                              PHP -
+                              Atom -
+                              Unity -
+                              SQL -
+                              Heroku -
+                              npm -
+                              MongoDB -
+                              Mongoose -
+                              EJS -
+                              JSON -
+                              Gulp -
+                              UNIX -
+                              VB.NET -
+                              C#.NET -
+                              PyQt5 -
+                              Github -
+                              BitBucket -
+                              SQL -
+                              Photoshop -
+                              Visual Studio -
+                              OpenGL</p>
+
+                          </div>
+
+                        </div>
+                        <div class="carousel-item">
+                          <p class="portfolio-lead-header font-weight-bold pt-0 mt-3">Accomplishments, Accolades, and Group Memberships</p>
+                          <div class="justify-content-center">
+                            <p class="skill-list-font-courses text-center pt-0 mt-1">
+                              Five Time Deans Honor Roll Receipient -
+                              3.5 GPA from NSU -
+                              DigiDems Alummi -
+                              Member of Unity Developers group -
+                              TulsaWebDevs member -
+                              Cybersecurity forums/groups for entry/proffesionals. </p>
+                          </div>
+
+                        </div>
+                        <div class="carousel-item">
+                          <p class="portfolio-lead-header font-weight-bold pt-0 mt-3">Bachelors of Science in Computer Science</p>
+                          <div class="justify-content-center text-left">
+                            <p class="skill-list-font-courses text-center pt-0 mt-1">
+                              Cybersecurity - Linear Algebra - Web Design - Cloud Computing - Databases -
+                              Systems Administrator - Networking - Data Structures - Unix - Software Engineering -
+                              Windows Programming - Big Data - Full Stack Development - Technical Support -
+                              Python Programming -  Object-Oriented Programming - Hardware Repair -
+                              PyQt5 - HTML, CSS, and JavaScript - Complex Algorithms - Calculus I-II-III
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+                      <a class="carousel-skills-prev" href="#carouselSkills" role="button" data-slide="prev">
+                      <span class="carousel-skills-prev-icon" aria-hidden="true">  <i class="fas fa-chevron-left fa-2x"> </i></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+
+
+
+
+                      <a class="carousel-skills-next" href="#carouselSkills" role="button" data-slide="next">
+                        <span class="carousel-skills-next-icon" aria-hidden="true"> <i class="fas fa-chevron-right fa-2x"> </i></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+
+                      </div>
+
+    </div>
+
+
+
+
+
 
                   </div>
                 </div>
-
-                <p class="portfolio-lead-header font-weight-bold pt-0 mt-3">Accomplishments, Accolades, and Group Memberships</p>
-                <div class="container align-content-start">
-
-                  <p class="skill-list-font-courses pt-0 mt-1">Bachelors of Science in Computer Science &nbsp; &nvHarr; &nbsp; &nbsp;
-                    Five Time Deans Honor Roll Receipient &nbsp; &nvHarr; &nbsp; &nbsp;
-                    3.5 GPA from NSU &nbsp; &nvHarr; &nbsp; &nbsp;
-                    DigiDems Alummi &nbsp; &nvHarr; &nbsp; &nbsp;
-                    Member of Unity Developers group &nbsp; &nvHarr; &nbsp; &nbsp;
-                    TulsaWebDevs member &nbsp; &nvHarr; &nbsp; &nbsp;
-                    Cybersecurity forums/groups for entry/proffesionals. </p>
-                </div>
-
-                <p class="portfolio-lead-header font-weight-bold pt-0 mt-3">Courses</p>
-                <div class="row">
-
-                  <p class="skill-list-font-courses pt-0 mt-1"> Cybersecurity &nbsp; &nvHarr; &nbsp; &nbsp; Linear Algebra &nbsp; &nvHarr; &nbsp; &nbsp; Web Design &nbsp; &nvHarr; &nbsp; &nbsp;Cloud Computing Databases
-                    Systems Administrator &nbsp; &nvHarr; &nbsp; &nbsp;Networking &nbsp; &nvHarr; &nbsp; &nbsp;Data Structures &nbsp; &nvHarr; &nbsp; &nbsp; Unix &nbsp; &nvHarr; &nbsp; &nbsp; Software Engineering
-                    Windows Programming &nbsp; &nvHarr; &nbsp; &nbsp; Big Data &nbsp; &nvHarr; &nbsp; &nbsp; FullStack Development &nbsp; &nvHarr; &nbsp; &nbsp; Technical Support
-                    Python Programming &nbsp; &nvHarr; &nbsp; &nbsp; Object-Oriented Programming &nbsp; &nvHarr; &nbsp; &nbsp; Hardware Repair
-                    PyQt5 &nbsp; &nvHarr; &nbsp; &nbsp; HTML, CSS, and JavaScript &nbsp; &nvHarr; &nbsp; &nbsp; Complex Algorithms &nbsp; &nvHarr; &nbsp; &nbsp; Calculus I-II-III
-
-                  </p>
-
-                </div>
-
               </div>
-
-
             </div>
-          </div>
 
-          <div class="container mt-2">
-            <button class="btn btn-primary" href="#" data-dismiss="modal">
-              <i class="fas fa-times fa-fw"></i>
-              Close Window
-            </button>
+
           </div>
         </div>
       </div>
@@ -1400,13 +1456,14 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 
 
 
+
   <!-- Bootstrap core JavaScript -->
   <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
-  <script  async src="https://play.vidyard.com/embed/v4.js"></script>
+  <script async src="https://play.vidyard.com/embed/v4.js"></script>
   <script src="jquery/jquery.js"></script>
-  <script  src="bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
   <!-- Plugin JavaScript -->
-  <script  src="jquery-easing/jquery.easing.js"></script>
+  <script src="jquery-easing/jquery.easing.js"></script>
   <!-- Contact Form JavaScript -->
   <script src="/js/jqBootstrapValidation.js"></script>
   <!-- <script src="/js/contact_me.js"></script> -->
@@ -1417,3 +1474,29 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 </body>
 
 </html>
+
+
+
+
+
+<!-- <p class="portfolio-lead-header font-weight-bold pt-0 mt-0"></p>
+<div class="row ">
+  <div class="portfolio-lead align-content-center">
+    <p class="skill-list-font-courses pt-1 mt-0">
+
+
+  </div>
+</div>
+
+<p class="portfolio-lead-header font-weight-bold pt-0 mt-3"></p>
+<div class="container align-content-start">
+
+  <p class="skill-list-font-courses pt-0 mt-1">
+   </p>
+</div>
+
+<p class="portfolio-lead-header font-weight-bold pt-0 mt-3">Courses</p>
+<div class="row">
+
+  <p class="skill-list-font-courses pt-0 mt-1">
+  </p> -->

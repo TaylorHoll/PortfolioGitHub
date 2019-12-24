@@ -5937,6 +5937,10 @@ a.close.disabled {
   touch-action: pan-y;
 }
 
+.carousel-skills.pointer-event {
+  touch-action: pan-y;
+}
+
 .carousel-inner {
   position: relative;
   width: 100%;
@@ -6021,10 +6025,10 @@ a.close.disabled {
 .carousel-control-prev:hover, .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-  color: #fff;
+  color: #green;
   text-decoration: none;
-  outline: 0;
-  opacity: 0.9;
+  outline: 1;
+  opacity: 1;
 }
 
 .carousel-control-prev {
@@ -6049,6 +6053,45 @@ a.close.disabled {
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+.carousel-skills-prev,
+.carousel-skills-next {
+  transition: none;
+}
+}
+
+.carousel-skills-prev:hover, .carousel-skills-prev:focus,
+.carousel-skills-next:hover,
+.carousel-skills-next:focus {
+color: blue;
+text-decoration: none;
+outline: 1;
+opacity: 1;
+}
+
+.carousel-skills-prev {
+left: -40px;
+}
+
+.carousel-skills-next {
+right: -40px;
+}
+
+.carousel-skills-prev-icon,
+.carousel-skills-next-icon {
+display: inline-block;
+width: 25px;
+height: 40px;
+background: no-repeat 50% / 100% 100%;
+}
+
+.carousel-skills-prev-icon{
+
+}
+
+.carousel-skills-next-icon{
+
 }
 
 .carousel-indicators {
@@ -10153,6 +10196,25 @@ form .row:first-child .floating-label-form-group {
   margin-right: -10rem; */
   }
 
+  .carousel-skills-prev,
+  .carousel-skills-next {
+    /* flex-wrap: wrap; */
+    position: absolute;
+    top: -240px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+
+    text-align: center;
+
+    transition: opacity 0.15s ease;
+    /* margin-left: -10rem;
+  margin-right: -10rem; */
+  }
+
   .carousel {
     position: relative;
     height: 700px;
@@ -10361,6 +10423,35 @@ form .row:first-child .floating-label-form-group {
   margin-right: -10rem; */
   }
 
+  .carousel-skills-prev,
+  .carousel-skills-next {
+    /* flex-wrap: wrap; */
+    position: absolute;
+    top: -240px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+
+    text-align: center;
+
+    transition: opacity 0.15s ease;
+    /* margin-left: -10rem;
+  margin-right: -10rem; */
+  }
+
+  .skills-button{
+        position: absolute;
+        bottom: 0;
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+  }
+
   .carousel {
     position: relative;
     height: 800px;
@@ -10475,9 +10566,9 @@ form .row:first-child .floating-label-form-group {
     align-items: center;
     justify-content: center;
     width: 10%;
-    color: #fff;
+    color: #1abc9c;
     text-align: center;
-    opacity: 0.5;
+    opacity: 1;
     transition: opacity 0.15s ease;
     /* margin-left: -10rem;
   margin-right: -10rem; */
@@ -10486,6 +10577,15 @@ form .row:first-child .floating-label-form-group {
   .carousel {
     position: relative;
     height: 700px;
+  }
+
+
+#carousel-skills{
+  height: 200px;
+}
+  .carousel-skills{
+    position: relative;
+    height: 200px;
   }
 
   .skill-list-font-courses {
@@ -10623,10 +10723,30 @@ form .row:first-child .floating-label-form-group {
   margin-right: -10rem; */
 }
 
+.carousel-skills-prev,
+.carousel-skills-next {
+  /* flex-wrap: wrap; */
+  position: absolute;
+  top: -220px;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+
+  text-align: center;
+
+  transition: opacity 0.15s ease;
+  /* margin-left: -10rem;
+  margin-right: -10rem; */
+}
+
 .carousel {
   position: relative;
   height: 700px;
 }
+
 
 .skill-list-font-courses {
   font-size: 1.10rem;

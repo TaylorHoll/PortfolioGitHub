@@ -86,8 +86,19 @@ $('.close-modal', '#portfolioModal7').click(function() {
       interval: 2000000
     });
 
+    $('.carousel-skills').carousel({
+      interval: 2000000
+    });
 
 
+    jQuery(window).load(function() {
+
+        /*
+            Stop carousel
+        */
+        $('.carousel').carousel('pause');
+
+    });
 
 
 

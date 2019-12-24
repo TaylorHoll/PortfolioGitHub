@@ -4,6 +4,7 @@
 const sslRedirect = require('heroku-ssl-redirect');
 const express = require("express");
 const bodyParser = require("body-parser");
+const nodemailer = require('nodemailer')
 
 
 const app = express();
@@ -21,10 +22,6 @@ app.use(express.static(__dirname + "/acme-challenge"));
 app.get("/", function(req, res){
   res.sendFile(__dirname + "/index.html");
 });
-
-// app.get("/.well-known/acme-challenge/HCZK0VMw5DUz0bduM0Zn_7fovpAiqxl6QqfBHsnwCkc", function(req, res){
-//   res.sendFile(__dirname + "/index.html");
-// });
 
 //if statement allows running locally as well as on keroku
 let port = process.env.PORT;
