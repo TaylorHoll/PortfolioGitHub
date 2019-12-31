@@ -1,3 +1,6 @@
+
+
+
 /* LoadingPage */
 #loadingPage {
   margin: 0;
@@ -326,6 +329,14 @@
   right: -45px;
 }
 
+.carousel-skills-prev {
+  left: -30px;
+}
+
+.carousel-skills-next {
+  right: -30px;
+}
+
 @media (min-width: 576px) {
   .masthead {
     padding-top: calc(1rem + 50px);
@@ -381,7 +392,6 @@
 
   .carousel-control-prev,
   .carousel-control-next {
-    /* flex-wrap: wrap; */
     position: absolute;
     top: -240px;
     bottom: 0;
@@ -394,27 +404,20 @@
     text-align: center;
     opacity: 0.5;
     transition: opacity 0.15s ease;
-    /* margin-left: -10rem;
-  margin-right: -10rem; */
   }
 
   .carousel-skills-prev,
   .carousel-skills-next {
-    /* flex-wrap: wrap; */
     position: absolute;
-    top: -240px;
+    top: -20px;
     bottom: 0;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 10%;
-
     text-align: center;
-
     transition: opacity 0.15s ease;
-    /* margin-left: -10rem;
-  margin-right: -10rem; */
   }
 
   .carousel {
@@ -475,11 +478,6 @@
     font-size: 1.75rem;
     line-height: 1.5rem;
   }
-
-  /* .portfolio-modal .portfolio-modal-title {
-    font-size: 2rem;
-    line-height: 1.75rem;
-  } */
 
   .modal-body {
     position: relative;
@@ -545,8 +543,6 @@
   .skills-font {
     font-size: 1.15rem;
     line-height: 1.25rem;
-    /* padding-left:: 5rem;
-     padding-right: 5rem; */
   }
 
   .skills-font-header {
@@ -554,8 +550,6 @@
     font-weight: bold;
     line-height: 2rem;
     padding-top: 1.5rem;
-    /* padding-left: 5rem;
-     padding-right: 5rem; */
   }
 
 
@@ -608,7 +602,6 @@
 
   .carousel-control-prev,
   .carousel-control-next {
-    /* flex-wrap: wrap; */
     position: absolute;
     top: -240px;
     bottom: 0;
@@ -621,27 +614,20 @@
     text-align: center;
     opacity: 0.5;
     transition: opacity 0.15s ease;
-    /* margin-left: -10rem;
-  margin-right: -10rem; */
   }
 
   .carousel-skills-prev,
   .carousel-skills-next {
-    /* flex-wrap: wrap; */
     position: absolute;
-    top: -240px;
+    top: -20px;
     bottom: 0;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 10%;
-
     text-align: center;
-
     transition: opacity 0.15s ease;
-    /* margin-left: -10rem;
-  margin-right: -10rem; */
   }
 
   .skills-button{
@@ -665,29 +651,9 @@
     line-height: 1.75rem;
     margin: 0rem 0rem 0rem 0rem;
   }
-
-
-
-
-
-
-
-
-
-
 }
 
 @media (min-width: 768px) {
-  /* .portfolio-modal .portfolio-modal-title {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  } */
-
-  /* .masthead {
-    padding-top: 6rem;
-    padding-bottom: 6.5rem;
-  } */
-
   .masthead .masthead-heading {
     font-size: 2rem;
     line-height: 2.25rem;
@@ -760,7 +726,6 @@
 
   .carousel-control-prev,
   .carousel-control-next {
-    /* flex-wrap: wrap; */
     position: absolute;
     top: -220px;
     bottom: 0;
@@ -773,8 +738,6 @@
     text-align: center;
     opacity: 1;
     transition: opacity 0.15s ease;
-    /* margin-left: -10rem;
-  margin-right: -10rem; */
   }
 
   .carousel {
@@ -915,7 +878,6 @@
 
 .carousel-control-prev,
 .carousel-control-next {
-  /* flex-wrap: wrap; */
   position: absolute;
   top: -220px;
   bottom: 0;
@@ -928,27 +890,20 @@
   text-align: center;
   opacity: 0.5;
   transition: opacity 0.15s ease;
-  /* margin-left: -10rem;
-  margin-right: -10rem; */
 }
 
 .carousel-skills-prev,
 .carousel-skills-next {
-  /* flex-wrap: wrap; */
   position: absolute;
-  top: -220px;
+  top: -20px;
   bottom: 0;
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 10%;
-
   text-align: center;
-
   transition: opacity 0.15s ease;
-  /* margin-left: -10rem;
-  margin-right: -10rem; */
 }
 
 .carousel {
@@ -1005,5 +960,11 @@
     font-weight: 500;
     margin: 0 0rem 0 0rem;
   }
+}
 
+
+
+#carouselSkills{
+  height: 300px;
+  position: relative;
 }
