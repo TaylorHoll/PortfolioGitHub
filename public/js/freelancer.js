@@ -1,6 +1,12 @@
 (function($) {
   "use strict"; // Start of use strict
 
+
+  //scroll to the top of page on reload
+  window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+
   // Hide modal on opening another modal
 $('.close-modal', '#portfolioModal7').click(function() {
   $('#portfolioModal1').modal('hide');
