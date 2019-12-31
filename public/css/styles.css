@@ -851,13 +851,14 @@
   }
 
   .masthead .masthead-subheading {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+
   }
 
   .masthead-description {
-    font-size: 1.15rem;
+    font-size: 1.4rem;
     font-weight: 500;
-    margin: 0 6rem 0 6rem;
+    margin: 0 2rem 0 2rem;
   }
 
 
@@ -983,6 +984,9 @@
     height: auto;
     margin-top: 1.5rem;
   }
+  .masthead .masthead-subheading {
+    font-size: 1.8rem;
+}
   .portfolio-lead-header {
     font-size: 1.25rem;
     margin: 1rem 8rem 1rem 8rem;
@@ -997,9 +1001,9 @@
   }
 
   .masthead-description {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: 500;
-    margin: 0 12rem 0 12rem;
+    margin: 0 0rem 0 0rem;
   }
 
 }
