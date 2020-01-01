@@ -9,6 +9,12 @@
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+
+
+
+
+This site was started from this layout, but is vastly different. I rebuilt
+it using node.js and gfetting rid of all scss files and gulp functionality. All modals function vastly different, and have 3x the layers
  */
 :root {
   --blue: #007bff;
@@ -205,10 +211,6 @@ figure {
   margin: 0 0 1rem;
 }
 
-/* img {
-  vertical-align: middle;
-  border-style: none;
-} */
 
 svg {
   overflow: hidden;
@@ -484,10 +486,6 @@ code {
   color: #e83e8c;
   word-break: break-word;
 }
-
-
-
-
 
 /* Classes */
 
@@ -9740,16 +9738,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 }
 
-/* .portfolio-modal .close {
-  position: absolute;
-  z-index: 1;
-  right: 1.5rem;
-  top: 1rem;
-  font-size: 3rem;
-  line-height: 3rem;
-  color: #1abc9c;
-  opacity: 1;
-} */
 .portfolio-modal .close {
   position: absolute;
   z-index: 1;

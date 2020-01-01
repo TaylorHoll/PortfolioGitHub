@@ -97,7 +97,7 @@ $('.close-modal', '#portfolioModal7').click(function() {
     });
 
 
-    jQuery(window).load(function() {
+    jQuery(window).on('load', function() {
 
         /*
             Stop carousel
