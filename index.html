@@ -2,343 +2,407 @@
 <html lang="en">
 
 <head>
+  <!-- All Google Analytics and other extesions from it.
+   Anti-flicker snippet (recommended)  -->
+  <style>
+    .async-hide {
+      opacity: 0 !important
+    }
+  </style>
+  <script>
+    (function(a, s, y, n, c, h, i, d, e) {
+      s.className += ' ' + y;
+      h.start = 1 * new Date;
+      h.end = i = function() {
+        s.className = s.className.replace(RegExp(' ?' + y), '')
+      };
+      (a[n] = a[n] || []).hide = h;
+      setTimeout(function() {
+        i();
+        h.end = null
+      }, c);
+      h.timeout = c;
+    })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
+      'UA-154873980-1': true
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154873980-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-154873980-1', {
+      'optimize_id': 'GTM-WRL5RBP'
+    });
+  </script>
+  <script src="jquery/jquery.min.js"></script>
+
+
+  <meta name="have-i-been-pwned-verification" value="ccf3cc81a4d339f0c66908daefce4011">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="Taylor Holloway">
   <title>Taylor H. Portfolio</title>
 
   <!-- Custom fonts for this theme -->
   <link href="fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-  <!-- <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script> -->
 
   <!-- Theme CSS -->
-  <link href="/css/animate.css" rel="stylesheet">
-  <link href="/css/freelancer.css" rel="stylesheet">
-  <link href="/css/styles.css" rel="stylesheet">
+  <link href="/css/animate.minify.css" rel="stylesheet">
+  <link href="/css/outline.minify.css" rel="stylesheet">
+  <link href="/css/styles.minify.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-sm navbar-expand-md bg-secondary text-uppercase fixed-top scrollspy" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Taylor Holloway</a>
-      <button class="navbar-toggler ml-auto text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-2 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item mx-2 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item mx-1 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
+  <div id="loadingPage">
+
+    <!-- Trial for a loading page -->
+    <div class="content">
+
+      <!-- End Trial for Loading Page -->
+
+      <div class="myDiv">
+
       </div>
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-sm navbar-expand-md bg-secondary text-uppercase fixed-top scrollspy" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">Taylor Holloway</a>
+          <button class="navbar-toggler ml-auto text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-2 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item mx-2 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+              </li>
+              <li class="nav-item mx-1 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- Masthead -->
+      <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+          <p> </p>
+
+          <!-- Masthead Avatar Image -->
+          <img class="masthead-avatar rounded-circle " src="img/portfolio/MainAvatar.png" alt="" height="355">
+
+          <!-- Masthead Heading -->
+          <!-- px-5 my-4 -->
+          <h5 class="masthead-heading text-uppercase ">My Fields</h5> <br>
+          <p class="masthead-subheading font-weight-bolder mb-0">Fullstack Web Developer - Cybersecurity Analyst - Software Developer</p>
+
+          <!-- Icon Divider -->
+          <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+              <i class="fas fa-keyboard"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+          </div>
+
+
+
+          <!-- Masthead Subheading -->
+          <div class="row text-center">
+            <div class="col-lg-12">
+              <p class="masthead-description">I created this website as a portal for my work in Computer Science. I wanted a simpler way to showcase my diverse skillset rather than just some public Github resources.</p>
+              <p class="masthead-description mt-3">This site contains demonstrations/links to four different websites, twelve software programs split between PyQt5 and the .NET frameworks, a video game I created for my college thesis as well as other
+                scholarly accolades,
+                and letters of reccomendation from CEO of Infinity, Dave Wertz and Senator Ojeda for my work in cybersecurity. </p>
+              <p class="masthead-description mt-3"> I will be updating this portfolio as well, which is very exciting. Thank you for your visit!</p>
+
+
+
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Loading Section Ended -->
+        <div class="loader-wrapper">
+          <h1>Loading...</h1>
+          <span class="loader"><span class="loader-inner"></span> </span>
+
+        </div>
+
+
     </div>
-  </nav>
-
-  <!-- Masthead -->
-  <header class="masthead bg-primary text-white text-center">
-    <div class="container d-flex align-items-center flex-column">
-      <p> </p>
-
-      <!-- Masthead Avatar Image -->
-      <img class="masthead-avatar rounded-circle " src="img/portfolio/MainAvatar.png" alt="" height="355">
-
-      <!-- Masthead Heading -->
-      <!-- px-5 my-4 -->
-      <h5 class="masthead-heading text-uppercase "> Taylor Holloway <br> Portfolio</h5>
-      <p class="masthead-subheading font-weight-bolder mb-0">Fullstack Web Developer - Cybersecurity Analyst - Software Developer</p>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-keyboard"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- Masthead Subheading -->
-      <div class="row text-center">
-        <div class="col-lg-12">
-          <p class="masthead-description">I created this website as a portal for my work in Computer Science. I wanted a simpler way to showcase my diverse skillset rather than just some public Github resources.</p>
-          <p class="masthead-description mt-3">This site contains demonstrations/links to four different websites, twelve software programs split between PyQt5 and the .NET frameworks, a video game I created for my college thesis as well as other
-            scholarly accolades,
-            and letters of reccomendation from CEO of Infinity, Dave Wertz and Senator Ojeda for my work in cybersecurity. </p>
-          <p class="masthead-description mt-3"> I will be updating this portfolio as well, which is very exciting. Thank you for your visit!</p>
 
 
 
-        </div>
-        <!-- <p class="portfolio-lead font-weight-light mb-0" style="width:59rem">
 
-          </p>
-          <p class="portfolio-lead-first-spread font-weight-light mb-0"></p> -->
-      </div>
-  </header>
-  <!-- Portfolio Section -->
-  <section class="page-section portfolio " id="portfolio">
-    <div class="container">
-      <!-- Portfolio Section Heading -->
-      <h1 class="page-section-heading text-center text-uppercase text-secondary mx-4">My Portfolio</h1>
-      <!-- Icon Divider -->
-      <div class="divider-custom mb-2">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-keyboard"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- Portfolio Grid Items -->
-      <h4 class="page-section-subheading text-center portfolio-lead mx-4 pt-2 pb-5">Select an image below to see more!</h4>
-      <div class="row ">
-
-        <!-- Portfolio Item 1 -->
-        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-2">
-          <h5 class="text-center text-secondary portfolio-lead">Fullstack Development</h5>
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-            <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <p>View</p>
-                <i class="fas fa-plus fa-2x"></i>
-              </div>
-            </div>
-            <img class="img-thumbnail" src="img/portfolio/fullstack.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 2 -->
-        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-2">
-          <h5 class=" text-center text-secondary portfolio-lead">Software Development</h5>
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-            <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <p class="mb-1">View</p>
-                <i class="fas fa-plus fa-2x"></i>
-              </div>
-            </div>
-            <img class="img-thumbnail" src="img/portfolio/softwaredev.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 4 -->
-        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-2">
-          <h5 class="text-center text-secondary portfolio-lead">Unity Game Development</h5>
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-            <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <p class="mb-1">View</p>
-                <i class="fas fa-plus fa-2x"></i>
-
-              </div>
-            </div>
-            <img class="img-thumbnail" src="img/portfolio/gamedev.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 3 -->
-        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-2">
-          <h5 class="text-center text-secondary portfolio-lead"> Cybersecurity & Auditing</h5>
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-            <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <p class="mb-1">View</p>
-                <i class="fas fa-plus fa-2x"></i>
-              </div>
-            </div>
-            <img class="img-thumbnail" src="img/portfolio/cyberSecurity.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 5 -->
-        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-2">
-          <h5 class="text-center text-secondary portfolio-lead">Education & Experience</h5>
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-            <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <p class="mb-1">View</p>
-                <i class="fas fa-plus fa-2x"></i>
-              </div>
-            </div>
-            <img class="img-thumbnail" src="img/portfolio/education.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 6 -->
-        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-2">
-          <h5 class="text-center text-secondary portfolio-lead"> Accolades, Skills, & Courses </h5>
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-            <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <p class="mb-1">View</p>
-                <i class="fas fa-plus fa-2x"></i>
-              </div>
-            </div>
-            <img class="img-thumbnail" src="img/portfolio/skills and courses.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="page-section about-section  bg-primary text-white " id="about">
-    <!-- About Section Heading -->
-    <h2 class="page-section-heading text-center text-uppercase text-white">About Me</h2>
-    <div class="container">
-
-
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-keyboard"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
+    </header>
+    <!-- Portfolio Section -->
+    <section class="page-section portfolio " id="portfolio">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-12">
+        <!-- Portfolio Section Heading -->
+        <h1 class="page-section-heading text-center text-uppercase text-secondary mx-4">My Portfolio</h1>
+        <!-- Icon Divider -->
+        <div class="divider-custom mb-2">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-keyboard"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
 
+        <!-- Portfolio Grid Items -->
+        <h4 class="page-section-subheading text-center portfolio-lead mx-4 pt-2 pb-5">Select an image below to see more!</h4>
+        <div class="row ">
 
-
-
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="justify-content-center">
-                    <p class="portfolio-about-header text-center">Road To College</p>
-                    <p class="portfolio-about">
-                      I started my path in Computer Science around the end of high school. Prior to attending college,
-                      I worked in IT at a small computer services company in Oklahoma, PCRx. I became obsessed with all
-                      things to do with technology. I spent countless hours tinkering, testing, and learning all I could
-                      about repair, basic coding, and user security. After PCRX, I was off to college where I learned a wide variety of programming languages, including IDE's,
-                      Object Oriented Design, and other tools. </p>
-
-
-                    <p class="portfolio-about">
-                      I graduated with a 3.5 GPA at Northeastern State University, five Dean’s Honor Roll Awards, and most importantly, far more knowledge in a
-                      wide variety of subjects than when I began my computer science journey. Initially, after college, I wanted to go into
-                      game design. However, after networking with many different
-                      people within the gaming industry, I changed my mind about entering the field because most of the people with whom I met had lost their passion for
-                      both developing video games. Combined with the fact game development pays less than other programming and development jobs,
-                      I decided to pursue a different route.
-                    </p>
-                  </div>
-
+          <!-- Portfolio Item 1 -->
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-2">
+            <h5 class="text-center text-secondary portfolio-lead">Fullstack Development</h5>
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+              <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <p>View</p>
+                  <i class="fas fa-plus fa-2x"></i>
                 </div>
-                <div class="carousel-item">
-                  <p class="portfolio-about-header  text-center">Cybersecurity for the Ojeda Campaign</p>
-                  <div class="justify-content-center">
-                    <p class="portfolio-about ">
-                      After a five-phase interview process, I found an incredible position with the organization, DigiDems, which provides high-tech support
-                      to congressional candidates around the U.S. I was responsible for securing all manner of communications and technology for my candidate’s
-                      entire campaign organization. I also was the lead Systems Administrator for everything within the campaign, and I was a significant
-                      participant in developing the campaign’s media. To prepare me for my role with the campaign, DigiDems provided training with top
-                      cybersecurity analysts at Google and Firefox, as well as with top echelon political operatives engaged in campaign cybersecurity,
-                      digital media, teamwork, and strategy.
-                    </p>
+              </div>
+              <img class="img-thumbnail" src="img/portfolio/fullstack.png" alt="">
+            </div>
+          </div>
 
-                    <p class="portfolio-about"> My work on the campaign was a great success. Ours was one of the few campaigns that never suffered any leaks or other
-                      security/administrative damage because I was committed to working constantly (including around-the-clock when necessary – which
-                      often happens on a congressional campaign) with Dave Wertz, the CEO of Infinity Marketing. You can read more about my time with the
-                      campaign in my <i>Letters of Reccomendation</i> section of the portfolio.
-                    </p>
-                  </div>
-
+          <!-- Portfolio Item 2 -->
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-2">
+            <h5 class=" text-center text-secondary portfolio-lead">Software Development</h5>
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+              <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <p class="mb-1">View</p>
+                  <i class="fas fa-plus fa-2x"></i>
                 </div>
-                <div class="carousel-item">
-                  <p class="portfolio-about-header  text-center">Post 2018 Election to the Present</p>
-                  <div class="justify-content-center text-left">
-                    <p class="portfolio-about">
-                      I had two choices after the 2018 elections. Digidems offered me the opportunity to continuing working for them. While I am sure this
-                      would have been great, I was not keen on continuing in politics, and I was still relatively young!
-                      I had never traveled outside of the U.S. and I was ready to explore. As a result, I have been traveling the world for almost the entire
-                      last year. From a home base in Taiwan, I have seen amazing cultures, beautiful islands, and wonderful people throughout Southeast Asia.
-                      This does not mean, however, that I stopped working. My desire to learn more about all aspects of computer science continued and I have completed
-                      two very significant courses during this time: (i) a course on PyQt5 for software development in Python; and (ii) a FullStack Web Development
-                      course. It was during the course on FullStack that I became fully invested in, and felt I could excel at, this area if I am given the opportunity
-                      to do so.
+              </div>
+              <img class="img-thumbnail" src="img/portfolio/softwaredev.png" alt="">
+            </div>
+          </div>
 
-                      <p class="portfolio-about">As you will see in my letters of recommendation, when it comes to my work, I am all in. I take great pride in being a trusted,
-                        responsive and reliable member of the team – one who is committed to quality and timely work. I am now looking for the chance to be a committed
-                        member of a new team – putting all of my programming, development and security skills to work.</p>
-                    </p>
-                  </div>
+          <!-- Portfolio Item 4 -->
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-2">
+            <h5 class="text-center text-secondary portfolio-lead">Unity Game Development</h5>
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+              <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <p class="mb-1">View</p>
+                  <i class="fas fa-plus fa-2x"></i>
 
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+              <img class="img-thumbnail" src="img/portfolio/gamedev.png" alt="">
             </div>
+          </div>
 
+          <!-- Portfolio Item 3 -->
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-2">
+            <h5 class="text-center text-secondary portfolio-lead"> Cybersecurity & Auditing</h5>
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+              <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <p class="mb-1">View</p>
+                  <i class="fas fa-plus fa-2x"></i>
+                </div>
+              </div>
+              <img class="img-thumbnail" src="img/portfolio/cyberSecurity.png" alt="">
+            </div>
+          </div>
 
+          <!-- Portfolio Item 5 -->
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-2">
+            <h5 class="text-center text-secondary portfolio-lead">Education & Experience</h5>
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+              <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <p class="mb-1">View</p>
+                  <i class="fas fa-plus fa-2x"></i>
+                </div>
+              </div>
+              <img class="img-thumbnail" src="img/portfolio/education.png" alt="">
+            </div>
+          </div>
+
+          <!-- Portfolio Item 6 -->
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-2">
+            <h5 class="text-center text-secondary portfolio-lead"> Accolades, Skills, & Courses </h5>
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+              <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <p class="mb-1">View</p>
+                  <i class="fas fa-plus fa-2x"></i>
+                </div>
+              </div>
+              <img class="img-thumbnail" src="img/portfolio/skills and courses.png" alt="">
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="page-section about-section  bg-primary text-white " id="about">
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-white">About Me</h2>
+      <div class="container">
 
 
-  </section>
-
-
-
-  <!--/.Carousel Wrapper-->
-
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
-    <div class="container">
-      <!-- Contact Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-keyboard"></i>
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-keyboard"></i>
+          </div>
+          <div class="divider-custom-line"></div>
         </div>
-        <div class="divider-custom-line"></div>
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+
+
+
+
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="justify-content-center">
+                      <p class="portfolio-about-header text-center">Road To College</p>
+                      <p class="portfolio-about">
+                        I started my path in Computer Science around the end of high school. Prior to attending college,
+                        I worked in IT at a small computer services company in Oklahoma, PCRx. I became obsessed with all
+                        things to do with technology. I spent countless hours tinkering, testing, and learning all I could
+                        about repair, basic coding, and user security. After PCRX, I was off to college where I learned a wide variety of programming languages, including IDE's,
+                        Object Oriented Design, and other tools. </p>
+
+
+                      <p class="portfolio-about">
+                        I graduated with a 3.5 GPA at Northeastern State University, five Dean’s Honor Roll Awards, and most importantly, far more knowledge in a
+                        wide variety of subjects than when I began my computer science journey. Initially, after college, I wanted to go into
+                        game design. However, after networking with many different
+                        people within the gaming industry, I changed my mind about entering the field because most of the people with whom I met had lost their passion for
+                        both developing video games. Combined with the fact game development pays less than other programming and development jobs,
+                        I decided to pursue a different route.
+                      </p>
+                    </div>
+
+                  </div>
+                  <div class="carousel-item">
+                    <p class="portfolio-about-header  text-center">Cybersecurity for the Ojeda Campaign</p>
+                    <div class="justify-content-center">
+                      <p class="portfolio-about ">
+                        After a five-phase interview process, I found an incredible position with the organization, DigiDems, which provides high-tech support
+                        to congressional candidates around the U.S. I was responsible for securing all manner of communications and technology for my candidate’s
+                        entire campaign organization. I also was the lead Systems Administrator for everything within the campaign, and I was a significant
+                        participant in developing the campaign’s media. To prepare me for my role with the campaign, DigiDems provided training with top
+                        cybersecurity analysts at Google and Firefox, as well as with top echelon political operatives engaged in campaign cybersecurity,
+                        digital media, teamwork, and strategy.
+                      </p>
+
+                      <p class="portfolio-about"> My work on the campaign was a great success. Ours was one of the few campaigns that never suffered any leaks or other
+                        security/administrative damage because I was committed to working constantly (including around-the-clock when necessary – which
+                        often happens on a congressional campaign) with Dave Wertz, the CEO of Infinity Marketing. You can read more about my time with the
+                        campaign in my <i>Letters of Reccomendation</i> section of the portfolio.
+                      </p>
+                    </div>
+
+                  </div>
+                  <div class="carousel-item">
+                    <p class="portfolio-about-header  text-center">Post 2018 Election to the Present</p>
+                    <div class="justify-content-center text-left">
+                      <p class="portfolio-about">
+                        I had two choices after the 2018 elections. Digidems offered me the opportunity to continuing working for them. While I am sure this
+                        would have been great, I was not keen on continuing in politics, and I was still relatively young!
+                        I had never traveled outside of the U.S. and I was ready to explore. As a result, I have been traveling the world for almost the entire
+                        last year. From a home base in Taiwan, I have seen amazing cultures, beautiful islands, and wonderful people throughout Southeast Asia.
+                        This does not mean, however, that I stopped working. My desire to learn more about all aspects of computer science continued and I have completed
+                        two very significant courses during this time: (i) a course on PyQt5 for software development in Python; and (ii) a FullStack Web Development
+                        course. It was during the course on FullStack that I became fully invested in, and felt I could excel at, this area if I am given the opportunity
+                        to do so.
+
+                        <p class="portfolio-about">As you will see in my letters of recommendation, when it comes to my work, I am all in. I take great pride in being a trusted,
+                          responsive and reliable member of the team – one who is committed to quality and timely work. I am now looking for the chance to be a committed
+                          member of a new team – putting all of my programming, development and security skills to work.</p>
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
       </div>
 
-      <!-- Contact Section Form -->
-      <div class="row justify-content-center">
-        <div class="col-lg-8 mx-auto text-center">
 
-          <h3 class="portfolio-lead">I hope you've enjoyed exploring the variety of things I've done in a field I absolutely love.</h3> <br>
+    </section>
+
+
+
+    <!--/.Carousel Wrapper-->
+
+    <!-- Contact Section -->
+    <section class="page-section" id="contact">
+      <div class="container">
+        <!-- Contact Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+        <!-- Icon Divider -->
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-keyboard"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+
+        <!-- Contact Section Form -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 mx-auto text-center">
+
+            <h3 class="portfolio-lead">I hope you've enjoyed exploring the variety of things I've done in a field I absolutely love.</h3> <br>
             <h3 class="portfolio-lead">You can contact me using my email at <a href="mailto:taylorholloway.dev@gmail.com">taylorholloway.dev@gmail.com</a> </h3>
-              <h3 class="portfolio-lead">or you can reach me on LinkedIn which is listed below.</h3> <br>
-                  <h3 class="portfolio-lead">along with my LinkedIn is also my Github. I am in the process of cleaing up, and uploading a ton of different prjects over the years. </h3>
-                <h3 class="portfolio-lead">For instance this site is still being constructed to my liking as well. I'll end up spending all waking hours on it if I dont put it up though, and so check back in!</h3>
-                  </p><br> <br>
-                  <br> <br>
+            <h3 class="portfolio-lead">or you can reach me on LinkedIn which is listed below.</h3> <br>
+            <h3 class="portfolio-lead">along with my LinkedIn is also my Github. I am in the process of cleaing up, and uploading a ton of different prjects over the years. </h3>
+            <h3 class="portfolio-lead">For instance this site is still being constructed to my liking as well. I'll end up spending all waking hours on it if I dont put it up though, and so check back in!</h3>
+            </p><br> <br>
+            <br> <br>
 
-                  <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                  <!-- <form name="sentMessage" id="contactForm" novalidate="novalidate"> -->
+            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+            <!-- <form name="sentMessage" id="contactForm" novalidate="novalidate"> -->
 
-                  <!-- <form name="sentMessage" id="contactForm" novalidate action="js/contact_me.php">
+            <!-- <form name="sentMessage" id="contactForm" novalidate action="js/contact_me.php">
 
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -377,322 +441,254 @@
               <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
             </div>
           </form> -->
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Footer -->
-  <footer class="footer text-center">
-    <div class="container">
-      <div class="row">
-        <!-- Footer Location -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="portfolio-lead mb-0">Kaohsiung City, Taiwan 800
-          </p>
-        </div>
-        <!-- Footer Social Icons -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">My Github and LinkedIn</h4>
-          <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/TaylorHoll">
-            <i class="fab fa-fw fa-github"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/taylor-holloway-b490957a/">
-            <i class="fab fa-fw fa-linkedin-in"></i>
-          </a>
-        </div>
-        <!-- Footer About Text -->
-        <div class="col-lg-4">
-          <h4 class="text-uppercase mb-4">Future Updates!</h4>
-          <p class="portfolio-lead mb-0">Stay Tuned for future updates I will be adding!
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- Copyright Section -->
-  <section class="copyright py-4 text-center text-white">
-    <div class="container">
-      <small> &copy; Taylor Holloway.Dev Portal</small>
-    </div>
-  </section>
-  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-  <div class="scroll-to-top d-lg-none position-fixed ">
-    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
-  </div>
-  <!-- Portfolio Modals -->
-  <!-- Portfolio Modal 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class=" fas fa-times corner-close"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-
-          <div class="container">
-
-            <div class="row justify-content-center">
-              <!-- Portfolio Modal - Title -->
-              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">FullStack Web Development</h2>
-              <!-- Icon Divider -->
-              <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                  <i class="fas fa-keyboard"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-              </div>
-              <!-- Portfolio Modal - Image -->
-              <div class="col-8 col-sm-4 col-md-4 col-lg-4">
-                <div class="portfolio-item my-auto mx-auto" data-toggle="modal" data-target="#portfolioModal1a">
-                  <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100" data-toggle="modal" data-target="#portfolioModal1a" data-dismiss="modal">
-                    <div class="portfolio-item-caption-content text-center text-white">
-                      <p>Frontend Development</p>
-                      <i class="fas fa-plus fa-2x"> </i>
-                    </div>
-                  </div>
-                  <img class="img-thumbnail" src="img/portfolio/Tindog1 - Copy.png" alt="">
-                </div>
-                <h6 class="text-center mod1-image-header " data-toggle="modal" data-target="#portfolioModal1a" data-dismiss="modal">View Tindog</h6>
-              </div>
-              <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="portfolio-item my-auto mx-auto" data-toggle="modal" data-target="#portfolioModal1b">
-                  <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100" data-toggle="modal" data-target="#portfolioModal1b" data-dismiss="modal">
-                    <div class="portfolio-item-caption-content text-center text-white">
-                      <p>Backend Development</p>
-                      <i class="fas fa-plus fa-2x"></i>
-                    </div>
-                  </div>
-                  <img class="img-thumbnail" src="img/portfolio/Todolist.jpg" alt="">
-                </div>
-                <h6 class="text-center mod1-image-header" data-toggle="modal" data-target="#portfolioModal2a" data-dismiss="modal">View ToDoList</h6>
-              </div>
-              <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="portfolio-item my-auto mx-auto" data-toggle="modal" data-target="#portfolioModal1c">
-                  <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100" data-toggle="modal" data-target="#portfolioModal1c" data-dismiss="modal">
-                    <div class="portfolio-item-caption-content text-center text-white">
-                      <p>Email User Database</p>
-                      <i class="fas fa-plus fa-2x"></i>
-                    </div>
-                  </div>
-                  <img class="img-thumbnail" src="img/portfolio/Newsletter.PNG" alt="">
-                </div>
-                <h6 class="text-center mod1-image-header" data-toggle="modal" data-target="#portfolioModal3a" data-dismiss="modal"> View Newsletter</h6>
-              </div>
-              <div class="col-lg-12">
-                <div class="align-text-center">
-                  <p class="portfolio-lead-header text-center">FullStack Course</p>
-                  <p class="portfolio-lead-text text-center">I entered a long course In Fullstack Web Development after my time doing Cyber Security in politics.
-                    The course began with things I was already familiar with like HTML, CSS, JavaScript, and PHP for example.
-                    However, after the first few secions I gathered a multitude of knowledge using tools like jQuery, Node.js, Exrepress, EJS, MongoDB,
-                    Mongoose, building my own RESTful API, and so much more!
-                  </p>
-                </div>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <!-- Footer Location -->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Location</h4>
+            <p class="portfolio-lead mb-0">Kaohsiung City, Taiwan 800
+            </p>
+          </div>
+          <!-- Footer Social Icons -->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">My Github and LinkedIn</h4>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/TaylorHoll">
+              <i class="fab fa-fw fa-github"></i>
+            </a>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/taylor-holloway-b490957a/">
+              <i class="fab fa-fw fa-linkedin-in"></i>
+            </a>
+          </div>
+          <!-- Footer About Text -->
+          <div class="col-lg-4">
+            <h4 class="text-uppercase mb-4">Future Updates!</h4>
+            <p class="portfolio-lead mb-0">Stay Tuned for future updates I will be adding!
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Copyright Section -->
+    <section class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small> &copy; Taylor Holloway.Dev Portal</small>
+      </div>
+    </section>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
     </div>
-  </div>
-  <!-- Portfolio Modal 1a -->
-  <div class="portfolio-modal modal fade " id="portfolioModal1a" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1aLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable  modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class=" fas fa-times corner-close"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
 
-          <div class="container">
-            <div class="row justify-content-center">
 
-              <!-- Portfolio Modal - Title -->
-              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Frontend Design</h2>
-              <!-- Icon Divider -->
-              <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                  <i class="fas fa-keyboard"></i>
+    <!-- Portfolio Modals -->
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class=" fas fa-times corner-close"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+
+            <div class="container">
+
+              <div class="row justify-content-center">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">FullStack Web Development</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-keyboard"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
                 </div>
-                <div class="divider-custom-line"></div>
-              </div>
-              <!-- Portfolio Modal Image -->
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <div class="portfolio-item mx-auto">
-                  <a href="css/Tindog/index.html">
-                    <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
+                <!-- Portfolio Modal - Image -->
+                <div class="col-8 col-sm-4 col-md-4 col-lg-4">
+                  <div class="portfolio-item my-auto mx-auto" data-toggle="modal" data-target="#portfolioModal1a">
+                    <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100" data-toggle="modal" data-target="#portfolioModal1a" data-dismiss="modal">
                       <div class="portfolio-item-caption-content text-center text-white">
-
-                        <i class="fas fa-plus fa"></i>
-
+                        <p>Frontend Development</p>
+                        <i class="fas fa-plus fa-2x"> </i>
                       </div>
                     </div>
-                  </a>
-                  <img class="img-thumbnail " src="img/portfolio/Tindog1.png" alt="">
-
+                    <img class="img-thumbnail" src="img/portfolio/Tindog1 - Copy.png" alt="">
+                  </div>
+                  <h6 class="text-center mod1-image-header " data-toggle="modal" data-target="#portfolioModal1a" data-dismiss="modal">View Tindog</h6>
                 </div>
-                <p class="font-weight-bolder pt-2"> <a href="https://secure-ridge-64806.herokuapp.com/"> Open ToDoList </a></p>
-                <!-- Portfolio Modal - Text -->
-                <div class="text-left">
-                  <p class="text-left portfolio-lead-header"> Tools used: </p>
-                  <p class="portfolio-lead-text"> HTML, CSS, JavaScript, and Bootstrap</p>
-                  <p class="portfolio-lead-text text-left">
-                    Tindog is a website created during my time in a Fullstack Development Course.
-                    It was the first time I had utilized fantastic tools like bootstrap!
-                    Clicking the image will take you directly to the website, and help your pets follow their dreams! Vistit Tindog <a href="css/Tindog/index.html">here. </a>
-                  </p>
-                </div>
-              </div>
-              <div class="container pt-4">
-                <button class="btn btn-primary align-items-end" aria-label="Back To Menu" href="#" data-toggle="modal" data-target="#portfolioModal1" data-dismiss="modal">
-                  <i class="fas fa-arrow-left"></i>
-                  Back to Menu
-                </button>
-                <button class="btn btn-primary align-items-end px-1" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio Modal 1b -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1b" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1bLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times corner-close"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-
-          <div class="container">
-            <div class="row justify-content-center">
-
-              <!-- Portfolio Modal - Title -->
-              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Custom TodoList</h2>
-              <!-- Icon Divider -->
-              <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                  <i class="fas fa-keyboard"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-              </div>
-              <!-- Portfolio Modal Image -->
-              <div class="col-md-12 col-lg-12">
-                <div class="portfolio-item my-auto mx-auto">
-                  <a href="https://secure-ridge-64806.herokuapp.com/">
-                    <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                  <div class="portfolio-item my-auto mx-auto" data-toggle="modal" data-target="#portfolioModal1b">
+                    <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100" data-toggle="modal" data-target="#portfolioModal1b" data-dismiss="modal">
                       <div class="portfolio-item-caption-content text-center text-white">
-                        <p>View Todolist</p>
-                        <i class="fas fa-plus fa"></i>
+                        <p>Backend Development</p>
+                        <i class="fas fa-plus fa-2x"></i>
                       </div>
                     </div>
-                  </a>
-                  <img class="img-thumbnail" src="img/portfolio/Todolist.jpg" alt="">
+                    <img class="img-thumbnail" src="img/portfolio/Todolist.jpg" alt="">
+                  </div>
+                  <h6 class="text-center mod1-image-header" data-toggle="modal" data-target="#portfolioModal2a" data-dismiss="modal">View ToDoList</h6>
                 </div>
-                <!-- Portfolio Modal - Text -->
-                <p class="font-weight-bolder pt-3"> <a href="https://secure-ridge-64806.herokuapp.com/"> Open ToDoList </a></p>
-
-                <p class="portfolio-lead-header text-left">Tools used:</p>
-                <p class="portfolio-lead-text text-left"> HTML, CSS, Bootstrap, JavaScript,
-                  jQuery, Node.js, Git, MongoDB, Mongoose, EJS, and Express
-                </p>
-                <p class="portfolio-lead-text text-left">This ToDoList is a live site that you can alter by adding new items, and
-                  checking the box to delete your ToDo's from the database. You can also add new list types by adding "/yourlistname"
-                  to the end of the URL.
-                  to the end of the URL. The name you choose will become the title, and you can save items into your own database!
-                </p>
-              </div>
-
-              <div class="container pt-4">
-                <button class="btn btn-primary align-items-start" href="#" data-toggle="modal" data-target="#portfolioModal1" data-dismiss="modal">
-                  <i class="fas fa-arrow-left"></i>
-                  Back to Menu
-                </button>
-                <button class="btn btn-primary align-items-end" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                  <div class="portfolio-item my-auto mx-auto" data-toggle="modal" data-target="#portfolioModal1c">
+                    <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100" data-toggle="modal" data-target="#portfolioModal1c" data-dismiss="modal">
+                      <div class="portfolio-item-caption-content text-center text-white">
+                        <p>Email User Database</p>
+                        <i class="fas fa-plus fa-2x"></i>
+                      </div>
+                    </div>
+                    <img class="img-thumbnail" src="img/portfolio/Newsletter.PNG" alt="">
+                  </div>
+                  <h6 class="text-center mod1-image-header" data-toggle="modal" data-target="#portfolioModal3a" data-dismiss="modal"> View Newsletter</h6>
+                </div>
+                <div class="col-lg-12">
+                  <div class="align-text-center">
+                    <p class="portfolio-lead-header text-center">FullStack Course</p>
+                    <p class="portfolio-lead-text text-center">I entered a long course In Fullstack Web Development after my time doing Cyber Security in politics.
+                      The course began with things I was already familiar with like HTML, CSS, JavaScript, and PHP for example.
+                      However, after the first few secions I gathered a multitude of knowledge using tools like jQuery, Node.js, Exrepress, EJS, MongoDB,
+                      Mongoose, building my own RESTful API, and so much more!
+                    </p>
+                  </div>
+                  <button class="btn btn-primary" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>
+                    Close Window
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
-  <!-- PorfolioModal 1c -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1c" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1cLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class=" fas fa-times corner-close"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center ">
+    <!-- Portfolio Modal 1a -->
+    <div class="portfolio-modal modal fade " id="portfolioModal1a" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1aLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable  modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class=" fas fa-times corner-close"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
 
-          <div class="container">
-            <div class="row justify-content-center">
+            <div class="container">
+              <div class="row justify-content-center">
 
-              <!-- Portfolio Modal 1C Title -->
-              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Newsletter Database</h2>
-              <!-- Icon Divider -->
-              <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                  <i class="fas fa-keyboard"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-              </div>
-              <!-- Portfolio Modal 1C Image -->
-              <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="portfolio-item my-auto mx-auto">
-
-                  <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
-                    <div class="portfolio-item-caption-content text-center text-white">
-
-                      <i class="fas fa-plus fa-2x"></i>
-                    </div>
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Frontend Design</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-keyboard"></i>
                   </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal Image -->
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <div class="portfolio-item mx-auto">
+                    <a href="Tindog/index.html">
+                      <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white">
 
-                  <img class="img-thumbnail mb-3" src="img/portfolio/Newsletter.PNG" alt="">
+                          <i class="fas fa-plus fa"></i>
+
+                        </div>
+                      </div>
+                    </a>
+                    <img class="img-thumbnail " src="img/portfolio/Tindog1.png" alt="">
+
+                  </div>
+                  <p class="font-weight-bolder pt-2"> <a href="https://secure-ridge-64806.herokuapp.com/"> Open Tindog </a></p>
+                  <!-- Portfolio Modal - Text -->
+                  <div class="text-left">
+                    <p class="text-left portfolio-lead-header"> Tools used: </p>
+                    <p class="portfolio-lead-text"> HTML, CSS, JavaScript, and Bootstrap</p>
+                    <p class="portfolio-lead-text text-left">
+                      Tindog is a website created during my time in a Fullstack Development Course.
+                      It was the first time I had utilized fantastic tools like bootstrap!
+                      Clicking the image will take you directly to the website, and help your pets follow their dreams! Vistit Tindog <a href="css/Tindog/index.html">here. </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="container pt-4">
+                  <button class="btn btn-primary align-items-end" aria-label="Back To Menu" href="#" data-toggle="modal" data-target="#portfolioModal1" data-dismiss="modal">
+                    <i class="fas fa-arrow-left"></i>
+                    Back to Menu
+                  </button>
+                  <button class="btn btn-primary align-items-end px-1" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>
+                    Close Window
+                  </button>
                 </div>
 
-                <p class="font-weight-bolder pt-3"> <a href="https://guarded-falls-88456.herokuapp.com/"> Open Newsletter </a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Modal 1b -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1b" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1bLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times corner-close"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
 
+            <div class="container">
+              <div class="row justify-content-center">
 
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Custom TodoList</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-keyboard"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal Image -->
+                <div class="col-md-12 col-lg-12">
+                  <div class="portfolio-item my-auto mx-auto">
+                    <a href="https://secure-ridge-64806.herokuapp.com/">
+                      <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white">
+                          <p>View Todolist</p>
+                          <i class="fas fa-plus fa"></i>
+                        </div>
+                      </div>
+                    </a>
+                    <img class="img-thumbnail" src="img/portfolio/Todolist.jpg" alt="">
+                  </div>
+                  <!-- Portfolio Modal - Text -->
+                  <p class="font-weight-bolder pt-3"> <a href="https://secure-ridge-64806.herokuapp.com/"> Open ToDoList </a></p>
 
-
-                <p class="portfolio-lead-header text-left">Tools Used:</p>
-                <p class="portfolio-lead-text text-left"> HTML, CSS, BOOTSTRAP, JavaScript, jQuery, Node.JS, Express.js, Git, Github, API integration, and
-                  Encrypting the API Key for saftey.</p>
-
-                <p class="portfolio-lead-text text-left">The Newsletter Website is one where users can sign up to receive regular email updates, and the owner can manage
-                  its listeners with the database behind it.
-                </p>
-
-
+                  <p class="portfolio-lead-header text-left">Tools used:</p>
+                  <p class="portfolio-lead-text text-left"> HTML, CSS, Bootstrap, JavaScript,
+                    jQuery, Node.js, Git, MongoDB, Mongoose, EJS, and Express
+                  </p>
+                  <p class="portfolio-lead-text text-left">This ToDoList is a live site that you can alter by adding new items, and
+                    checking the box to delete your ToDo's from the database. You can also add new list types by adding "/yourlistname"
+                    to the end of the URL.
+                    to the end of the URL. The name you choose will become the title, and you can save items into your own database!
+                  </p>
+                </div>
 
                 <div class="container pt-4">
                   <button class="btn btn-primary align-items-start" href="#" data-toggle="modal" data-target="#portfolioModal1" data-dismiss="modal">
@@ -704,95 +700,238 @@
                     Close Window
                   </button>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Portfolio Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close close-modal" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class=" fas fa-times corner-close"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
 
-          <div class="container">
-            <div class="row justify-content-center">
-              <!-- Portfolio Modal - Title -->
-              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Software Development</h2>
-              <!-- Icon Divider -->
-              <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                  <i class="fas fa-keyboard"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-              </div>
-              <!-- Portfolio Modal - Image -->
-              <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-                <div class="portfolio-item my-auto mx-auto" data-toggle="modal" data-target="#portfolioModal2a">
-                  <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100" data-toggle="modal" data-target="#portfolioModal2a" data-dismiss="modal">
-                    <div class="portfolio-item-caption-content text-center text-white">
-                      <i class="fas fa-plus fa-2x"></i>
-                    </div>
-                  </div>
-                  <img class="img-thumbnail" src="img/portfolio/PyQt5.png" alt="">
-                </div>
-                <h6 class="portfolio-lead text-secondary py-3 mb-5" data-toggle="modal" data-target="#portfolioModal2a" data-dismiss="modal">PyQt5 Framework</h6>
-              </div>
-              <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-                <div class="portfolio-item my-auto mx-auto" data-toggle="modal" data-target="#portfolioModal2b">
-                  <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100" data-toggle="modal" data-target="#portfolioModal2b" data-dismiss="modal">
-                    <div class="portfolio-item-caption-content text-center text-white">
-                      <p class="mb-1" data-toggle="modal" data-target="#portfolioModal2b" data-dismiss="modal">Open .NET</p>
-                      <i class="fas fa-plus fa-2x"></i>
-                    </div>
-                  </div>
-                  <img class="img-thumbnail" src="img\portfolio\netframework.png" alt="">
-                </div>
-                <h6 class="portfolio-lead  text-secondary py-3 mb-5">.Net Core Framework</h6>
-              </div>
-            </div>
-            <!-- Portfolio Modal - Text -->
-            <p class="portfolio-lead-text text-center">In the modules above you will find that I've put together two presentations of twelve different small software programs split
-              between the PyQt5 and .Net frameworks.
-            </p>
-
-            <p class="portfolio-lead-text text-center">I have worked with other GUI or frameworks as well, but these two are the ones I am most familiar with.
-              There are a vast amount of these small widgets I've made over my CS career that arent shown here. However, you are free to request to see more,
-              or check out my Github!</p>
-            <div class="container pt-4">
-              <button class="btn btn-primary align-items-end close-modal" href="#" data-dismiss="modal">
-                <i class="fas fa-times fa-fw"></i>
-                Close Window
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio 2a Modal -->
-  <div id="myModal">
-    <div class="portfolio-modal modal fade" id="portfolioModal2a" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2aLabel" aria-hidden="true">
+    <!-- PorfolioModal 1c -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1c" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1cLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-
         <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class=" fas fa-times corner-close"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center ">
 
+            <div class="container">
+              <div class="row justify-content-center">
+
+                <!-- Portfolio Modal 1C Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Newsletter Database</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-keyboard"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal 1C Image -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="portfolio-item my-auto mx-auto">
+
+                    <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
+                      <div class="portfolio-item-caption-content text-center text-white">
+
+                        <i class="fas fa-plus fa-2x"></i>
+                      </div>
+                    </div>
+
+                    <img class="img-thumbnail mb-3" src="img/portfolio/Newsletter.PNG" alt="">
+                  </div>
+
+                  <p class="font-weight-bolder pt-3"> <a href="https://guarded-falls-88456.herokuapp.com/"> Open Newsletter </a></p>
+
+
+
+
+                  <p class="portfolio-lead-header text-left">Tools Used:</p>
+                  <p class="portfolio-lead-text text-left"> HTML, CSS, BOOTSTRAP, JavaScript, jQuery, Node.JS, Express.js, Git, Github, API integration, and
+                    Encrypting the API Key for saftey.</p>
+
+                  <p class="portfolio-lead-text text-left">The Newsletter Website is one where users can sign up to receive regular email updates, and the owner can manage
+                    its listeners with the database behind it.
+                  </p>
+
+
+
+                  <div class="container pt-4">
+                    <button class="btn btn-primary align-items-start" href="#" data-toggle="modal" data-target="#portfolioModal1" data-dismiss="modal">
+                      <i class="fas fa-arrow-left"></i>
+                      Back to Menu
+                    </button>
+                    <button class="btn btn-primary align-items-end" href="#" data-dismiss="modal">
+                      <i class="fas fa-times fa-fw"></i>
+                      Close Window
+                    </button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close close-modal" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class=" fas fa-times corner-close"></i>
+            </span>
+          </button>
           <div class="modal-body text-center">
+
+            <div class="container">
+              <div class="row justify-content-center">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Software Development</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-keyboard"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+                  <div class="portfolio-item my-auto mx-auto" data-toggle="modal" data-target="#portfolioModal2a">
+                    <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100" data-toggle="modal" data-target="#portfolioModal2a" data-dismiss="modal">
+                      <div class="portfolio-item-caption-content text-center text-white">
+                        <i class="fas fa-plus fa-2x"></i>
+                      </div>
+                    </div>
+                    <img class="img-thumbnail" src="img/portfolio/PyQt5.png" alt="">
+                  </div>
+                  <h6 class="portfolio-lead text-secondary py-3 mb-5" data-toggle="modal" data-target="#portfolioModal2a" data-dismiss="modal">PyQt5 Framework</h6>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+                  <div class="portfolio-item my-auto mx-auto" data-toggle="modal" data-target="#portfolioModal2b">
+                    <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100" data-toggle="modal" data-target="#portfolioModal2b" data-dismiss="modal">
+                      <div class="portfolio-item-caption-content text-center text-white">
+                        <p class="mb-1" data-toggle="modal" data-target="#portfolioModal2b" data-dismiss="modal">Open .NET</p>
+                        <i class="fas fa-plus fa-2x"></i>
+                      </div>
+                    </div>
+                    <img class="img-thumbnail" src="img\portfolio\netframework.png" alt="">
+                  </div>
+                  <h6 class="portfolio-lead  text-secondary py-3 mb-5">.Net Core Framework</h6>
+                </div>
+              </div>
+              <!-- Portfolio Modal - Text -->
+              <p class="portfolio-lead-text text-center">In the modules above you will find that I've put together two presentations of twelve different small software programs split
+                between the PyQt5 and .Net frameworks.
+              </p>
+
+              <p class="portfolio-lead-text text-center">I have worked with other GUI or frameworks as well, but these two are the ones I am most familiar with.
+                There are a vast amount of these small widgets I've made over my CS career that arent shown here. However, you are free to request to see more,
+                or check out my Github!</p>
+              <div class="container pt-4">
+                <button class="btn btn-primary align-items-end close-modal" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio 2a Modal -->
+    <div id="myModal">
+      <div class="portfolio-modal modal fade" id="portfolioModal2a" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2aLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+
+          <div class="modal-content">
+
+            <div class="modal-body text-center">
+
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <!-- Portfolio Modal 1C Title -->
+                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">PyQt5 Demonstration </h2>
+                    <!-- Icon Divider -->
+                    <div class="divider-custom">
+                      <div class="divider-custom-line"></div>
+                      <div class="divider-custom-icon">
+                        <i class="fas fa-keyboard"></i>
+                      </div>
+                      <div class="divider-custom-line"></div>
+                    </div>
+                    <!-- Portfolio Modal 2a Image -->
+
+
+                    <!-- <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
+                  <img style="width: 100%; margin: auto; display: block;" class="vidyard-player-embed" src="https://play.vidyard.com/dsvvTjFLnEzm5omtSofv7s.jpg?preload=none&quality=1080p" data-uuid="dsvvTjFLnEzm5omtSofv7s" data-v="4"
+                    data-type="inline" /> -->
+
+
+
+
+                    <!-- <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
+                      <img style="width: 100%; z-index: 1; margin: auto; display: block;" class="vidyard-player-embed" src="https://play.vidyard.com/dsvvTjFLnEzm5omtSofv7s.jpg" data-uuid="dsvvTjFLnEzm5omtSofv7s" data-v="4" data-type="inline" /> -->
+                    <div class="vidyard-player-container" uuid="YbtgbbNtFgT3VeXEp6FV9G" style="margin: auto; width: 100%; height: auto; overflow: hidden; display: block;">
+
+
+
+
+                      <div class="vidyard-div-YbtgbbNtFgT3VeXEp6FV9G" role="application" aria-label="media player" style="position: relative; padding-bottom: 56.25%; height: 0px; overflow: hidden; max-width: 100%;">
+                        <iframe id="demoVideo" allow="autoplay; fullscreen;" allowfullscreen="" allowtransparency="true" aria-label="Video" class="vidyard-iframe-YbtgbbNtFgT3VeXEp6FV9G" frameborder="0" height="100%" width="100%" scrolling="no"
+                          src="https://play.vidyard.com/dsvvTjFLnEzm5omtSofv7s?disable_popouts=1&amp;v=4.2.19&amp;type=inline&preload=none&quality=1080p&force_https=1&preload=none&quality=1080p" title="Video"
+                          style="opacity: 1; background-color: transparent; position: absolute; top: 0px; left: 0px;" __idm_id__="709475330">
+                        </iframe>
+                      </div>
+                    </div>
+                    <!-- <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
+                      <img style="width: 100%; margin: auto; display: block;" class="vidyard-player-embed" src="https://play.vidyard.com/dsvvTjFLnEzm5omtSofv7s.jpg" data-uuid="dsvvTjFLnEzm5omtSofv7s" data-v="4" data-type="inline" /> -->
+                    <div class="text-left px-3 pt-5">
+                      <p class="portfolio-lead">The video above is of widgets I built in the PyQt5 GUI environment, and coded in Python.</p>
+                      <p class="portfolio-lead pb-2">There are other widgets and software done in PyQt5 you can request, or visit my Github <a href="https://github.com/TaylorHoll"> here. </a>
+                        Not all are available publicly yet, but will be soon. </p>
+                    </div>
+                    <div class="container">
+                      <button class="btn btn-primary align-items-start close-modal" href="#" data-toggle="modal" data-target="#portfolioModal2" data-dismiss="modal">
+                        <i class="fas fa-arrow-left"></i>
+                        Back to Menu
+                      </button>
+                      <button class="btn btn-primary align-items-end close-modal" href="#" data-dismiss="modal">
+                        <i class="fas fa-times fa-fw"></i>
+                        Close Window
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio 2b Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2b" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2bLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-toggle="modal" data-target="#portfolioModal2" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" script="display: static;">
+              <i class=" fas fa-times corner-close"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center ">
 
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-lg-8">
                   <!-- Portfolio Modal 1C Title -->
-                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">PyQt5 Demonstration </h2>
+                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">.NET Demonstration </h2>
                   <!-- Icon Divider -->
                   <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -801,43 +940,28 @@
                     </div>
                     <div class="divider-custom-line"></div>
                   </div>
-                  <!-- Portfolio Modal 2a Image -->
-
-
-                  <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
-                  <img style="width: 100%; margin: auto; display: block;" class="vidyard-player-embed" src="https://play.vidyard.com/dsvvTjFLnEzm5omtSofv7s.jpg?preload=none&quality=1080p" data-uuid="dsvvTjFLnEzm5omtSofv7s" data-v="4"
-                    data-type="inline" />
-
-
-
-
-                  <!-- <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
-                      <img style="width: 100%; z-index: 1; margin: auto; display: block;" class="vidyard-player-embed" src="https://play.vidyard.com/dsvvTjFLnEzm5omtSofv7s.jpg" data-uuid="dsvvTjFLnEzm5omtSofv7s" data-v="4" data-type="inline" /> -->
-                  <!-- <div class="vidyard-player-container" uuid="YbtgbbNtFgT3VeXEp6FV9G" style="margin: auto; width: 100%; height: auto; overflow: hidden; display: block;">
-
-
-
-
+                  <!-- Portfolio Modal 2B Image -->
+                  <div class="vidyard-player-container" uuid="YbtgbbNtFgT3VeXEp6FV9G" style="margin: auto; width: 100%; height: auto; overflow: hidden; display: block;">
                     <div class="vidyard-div-YbtgbbNtFgT3VeXEp6FV9G" role="application" aria-label="media player" style="position: relative; padding-bottom: 56.25%; height: 0px; overflow: hidden; max-width: 100%;">
-                      <iframe id="demoVideo" allow="autoplay; fullscreen;" allowfullscreen="" allowtransparency="true" aria-label="Video" class="vidyard-iframe-YbtgbbNtFgT3VeXEp6FV9G" frameborder="0" height="100%" width="100%" scrolling="no"
-                        src="https://play.vidyard.com/dsvvTjFLnEzm5omtSofv7s?disable_popouts=1&amp;v=4.2.19&amp;type=inline&preload=none&quality=1080p&force_https=1" title="Video" style="opacity: 1; background-color: transparent; position: absolute; top: 0px; left: 0px;"
-                        __idm_id__="709475330">
+                      <iframe id="demoVideo" rel="prefetch" allow="autoplay; fullscreen;" allowfullscreen="" allowtransparency="true" aria-label="Video" class="vidyard-iframe-YbtgbbNtFgT3VeXEp6FV9G" frameborder="0" height="100%" width="100%"
+                        scrolling="no" src="https://play.vidyard.com/YbtgbbNtFgT3VeXEp6FV9G?disable_popouts=1&amp;v=4.2.19&amp;type=inline&preload=none&quality=1080p&force_https=1" title="Video"
+                        style="opacity: 1; background-color: transparent; position: absolute; top: 0px; left: 0px;" __idm_id__="709475330">
                       </iframe>
                     </div>
-                  </div> -->
-                  <!-- <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
-                      <img style="width: 100%; margin: auto; display: block;" class="vidyard-player-embed" src="https://play.vidyard.com/dsvvTjFLnEzm5omtSofv7s.jpg" data-uuid="dsvvTjFLnEzm5omtSofv7s" data-v="4" data-type="inline" /> -->
-                  <div class="text-left px-3 pt-5">
-                    <p class="portfolio-lead">The video above is of widgets I built in the PyQt5 GUI environment, and coded in Python.</p>
-                    <p class="portfolio-lead pb-2">There are other widgets and software done in PyQt5 you can request, or visit my Github <a href="https://github.com/TaylorHoll"> here. </a>
-                      Not all are available publicly yet, but will be soon. </p>
                   </div>
-                  <div class="container">
-                    <button class="btn btn-primary align-items-start close-modal" href="#" data-toggle="modal" data-target="#portfolioModal2" data-dismiss="modal">
+                  <!-- <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
+                    <img style="width: 100%; margin: auto; display: block;" class="vidyard-player-embed" src="https://play.vidyard.com/YbtgbbNtFgT3VeXEp6FV9G.jpg" data-uuid="YbtgbbNtFgT3VeXEp6FV9G" data-v="4" data-type="inline" /> -->
+                  <div class="text-left px-3 pt-5">
+                    <p class="portfolio-lead ">The video shows some examples of simple widgets I've done in the .Net framework.</p>
+                    <p class="portfolio-lead ">I have done many more, and more work can be seen upon request. You can also visit my Github page
+                      <a href="https://github.com/TaylorHoll"> here, </a> or from the main pages footer. </p>
+                  </div>
+                  <div class="container pt-4">
+                    <button class="btn btn-primary align-items-start" href="#" data-toggle="modal" data-target="#portfolioModal2" data-dismiss="modal">
                       <i class="fas fa-arrow-left"></i>
                       Back to Menu
                     </button>
-                    <button class="btn btn-primary align-items-end close-modal" href="#" data-dismiss="modal">
+                    <button class="btn btn-primary align-items-end" href="#" data-dismiss="modal">
                       <i class="fas fa-times fa-fw"></i>
                       Close Window
                     </button>
@@ -849,139 +973,381 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- Portfolio 2b Modal -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2b" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2bLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-toggle="modal" data-target="#portfolioModal2" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true" script="display: static;">
-            <i class=" fas fa-times corner-close"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center ">
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class=" fas fa-times corner-close"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
 
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal 1C Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">.NET Demonstration </h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-keyboard"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal 2B Image -->
-                <div class="vidyard-player-container" uuid="YbtgbbNtFgT3VeXEp6FV9G" style="margin: auto; width: 100%; height: auto; overflow: hidden; display: block;">
-                  <div class="vidyard-div-YbtgbbNtFgT3VeXEp6FV9G" role="application" aria-label="media player" style="position: relative; padding-bottom: 56.25%; height: 0px; overflow: hidden; max-width: 100%;">
-                    <iframe id="demoVideo" rel="prefetch" allow="autoplay; fullscreen;" allowfullscreen="" allowtransparency="true" aria-label="Video" class="vidyard-iframe-YbtgbbNtFgT3VeXEp6FV9G" frameborder="0" height="100%" width="100%"
-                      scrolling="no" src="https://play.vidyard.com/YbtgbbNtFgT3VeXEp6FV9G?disable_popouts=1&amp;v=4.2.19&amp;type=inline&preload=none&quality=1080p&force_https=1" title="Video"
-                      style="opacity: 1; background-color: transparent; position: absolute; top: 0px; left: 0px;" __idm_id__="709475330">
-                    </iframe>
-                  </div>
-                </div>
-                <!-- <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
-                    <img style="width: 100%; margin: auto; display: block;" class="vidyard-player-embed" src="https://play.vidyard.com/YbtgbbNtFgT3VeXEp6FV9G.jpg" data-uuid="YbtgbbNtFgT3VeXEp6FV9G" data-v="4" data-type="inline" /> -->
-                <div class="text-left px-3 pt-5">
-                  <p class="portfolio-lead ">The video shows some examples of simple widgets I've done in the .Net framework.</p>
-                  <p class="portfolio-lead ">I have done many more, and more work can be seen upon request. You can also visit my Github page
-                    <a href="https://github.com/TaylorHoll"> here, </a> or from the main pages footer. </p>
-                </div>
-                <div class="container pt-4">
-                  <button class="btn btn-primary align-items-start" href="#" data-toggle="modal" data-target="#portfolioModal2" data-dismiss="modal">
-                    <i class="fas fa-arrow-left"></i>
-                    Back to Menu
-                  </button>
-                  <button class="btn btn-primary align-items-end" href="#" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class=" fas fa-times corner-close"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-
-          <div class="container">
-            <div class="row justify-content-center">
-              <!-- <div class="col-lg-8"> -->
-              <!-- Portfolio Modal - Title -->
-              <h2 class="portfolio-modal-title text-secondary text-uppercase">Cyber Security Analyst</h2>
-              <!-- Icon Divider -->
-              <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                  <i class="fas fa-keyboard"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-              </div>
-              <div class="col-sm-12 col-md-12 col-lg-12 pb-5">
-                <!-- Portfolio Modal - Image -->
-                <img class="code-img" id="img1" src="https://media.giphy.com/media/ol7H4msSgWphe/giphy.gif" alt="code-img">
-                <!-- <img class="img-thumbnail rounded mb-5" src="img/portfolio/Modal3.png" alt=""> -->
-              </div>
-              <!-- Portfolio Modal - Text -->
-              <div class="row text-center pt-2">
-                <div class="col-sm-12 col-md-12 col-lg-4">
-                  <p class="font-weight-bolder portfolio-lead text-center mt-1">College Course Experience</p>
-                  <p class="portfolio-lead text-center mx-auto">I took three different courses on Cyber Security. This included things like keyloggers, brute force attacks, and gaining access simply by basic communication.</p>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-4">
-                  <p class="font-weight-bolder portfolio-lead text-center mt-1">Analyst for Political Party</p>
-                  <p class="portfolio-lead text-center mx-auto">Two of the top security analysts at Google and Firefox worked with us before being sent to our particular campaign. You can find more in the Experience section.</p>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-4">
-                  <p class="font-weight-bolder portfolio-lead text-center mt-1">Security Audits</p>
-                  <p class="portfolio-lead text-center mx-auto">After the 2018 elections I have been doing constant audits for people/buisnesses by utilizing the tools I've learned. Since I have found even more tools.</p>
-                  <!-- <p class="modal-text text-left ">After graduating from college I joined an organization that sent young bright minds into high profile political campaings to protect information, communications, and prevent leaks.
-                      I leared invaluable things about security, but also coming in as an outsider, and becoming part of a family with my team. You can see more in the Education &nbsp; Experience section. </p> -->
-                </div>
-              </div>
-              <div class="pt-2">
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-                <!-- </div> -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class=" fas fa-times corner-close"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
+            <div class="container">
+              <div class="row justify-content-center">
+                <!-- <div class="col-lg-8"> -->
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Game Development</h2>
+                <h2 class="portfolio-modal-title text-secondary text-uppercase">Cyber Security Analyst</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-keyboard"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12 pb-5">
+                  <!-- Portfolio Modal - Image -->
+                  <img class="code-img" id="img1" src="https://media.giphy.com/media/ol7H4msSgWphe/giphy.gif" alt="code-img">
+                  <!-- <img class="img-thumbnail rounded mb-5" src="img/portfolio/Modal3.png" alt=""> -->
+                </div>
+                <!-- Portfolio Modal - Text -->
+                <div class="row text-center pt-2">
+                  <div class="col-sm-12 col-md-12 col-lg-4">
+                    <p class="font-weight-bolder portfolio-lead text-center mt-1">College Course Experience</p>
+                    <p class="portfolio-lead text-center mx-auto">I took three different courses on Cyber Security. This included things like keyloggers, brute force attacks, and gaining access simply by basic communication.</p>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-4">
+                    <p class="font-weight-bolder portfolio-lead text-center mt-1">Analyst for Political Party</p>
+                    <p class="portfolio-lead text-center mx-auto">Two of the top security analysts at Google and Firefox worked with us before being sent to our particular campaign. You can find more in the Experience section.</p>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-4">
+                    <p class="font-weight-bolder portfolio-lead text-center mt-1">Security Audits</p>
+                    <p class="portfolio-lead text-center mx-auto">After the 2018 elections I have been doing constant audits for people/buisnesses by utilizing the tools I've learned. Since I have found even more tools.</p>
+                    <!-- <p class="modal-text text-left ">After graduating from college I joined an organization that sent young bright minds into high profile political campaings to protect information, communications, and prevent leaks.
+                      I leared invaluable things about security, but also coming in as an outsider, and becoming part of a family with my team. You can see more in the Education  Experience section. </p> -->
+                  </div>
+                </div>
+                <div class="pt-2">
+                  <button class="btn btn-primary" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>
+                    Close Window
+                  </button>
+                  <!-- </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class=" fas fa-times corner-close"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title -->
+                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Game Development</h2>
+                  <!-- Icon Divider -->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-keyboard"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image -->
+                  <div class="vidyard-player-container" uuid="JJWVWw3w9ypfErhmKdZr9F" style="margin:table-row; width: 100%; height: auto;overflow: hidden;display: block;">
+                    <div class="vidyard-div-JJWVWw3w9ypfErhmKdZr9F" role="application" aria-label="media player"
+                      style="position: relative; padding-bottom: 56.25%; padding-left: 10%; padding-right: 10%; height: 0px; overflow: hidden; max-width: 100%;">
+                      <iframe allow="fullscreen;" allowfullscreen="" allowtransparency="true" aria-label="Video" class="vidyard-iframe-JJWVWw3w9ypfErhmKdZr9F" frameborder="0" height="100%" width="100%" scrolling="yes"
+                        src="https://play.vidyard.com/JJWVWw3w9ypfErhmKdZr9F?disable_popouts=1&amp;v=4.2.19&amp;type=inline&preload=none&quality=1080p&force_https=1" title="Video"
+                        style="opacity: 1; background-color: transparent; position: absolute; top: 0px; left: 0px;">
+                      </iframe>
+                    </div>
+                  </div>
+                  <!-- <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
+                <img style="width: 80%; margin: 20px; display: relative;" class="vidyard-player-embed" src="https://play.vidyard.com/JJWVWw3w9ypfErhmKdZr9F.jpg?preload=none&quality=1080p&force_https=1" data-uuid="JJWVWw3w9ypfErhmKdZr9F" data-v="4" data-type="inline" /> -->
+                  <p class="font-weight-bolder portfolio-lead-header pt-2">Plaga</p>
+                  <p class="portfolio-game-text">
+                    <span class="font-weight-bold">Tools Used: </span> C#, Unity, Photoshop, Blender, and Monoscript.
+                  </p>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <p class="portfolio-game-text text-left">I was given 3 months for my college thesis to make this game I dubbed Plaga. All the coding and animations were done by me.
+                      The art assets were gathered from free domain sources. I would then edit the 2D assets frame by frame to create the animation.
+                      In the future I could add more to this. I have a ton of ideas for bosses and special skills the player can utilize.
+                    </p>
+                    </p>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <p class="portfolio-game-text text-left">
+                      However, once I met people in the games industry and networked sufficiently, I found out that they didnt like games anymore.
+                      The industry had sort of broken that from them, and so I decided to go a different path for now at least. Its a shame really. I wanted to explore more of this world I created.
+                      I never would want to loathe that though.
+                    </p>
+                  </div>
+                </div>
+                <div class="pt-3">
+                  <button class="btn btn-primary align-items-end" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>
+                    Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class=" fas fa-times corner-close"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+
+            <div class="container">
+              <div class="row justify-content-center">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Letters of Recomendation</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-keyboard"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <div class="col-8 col-sm-4 col-md-4 col-lg-4">
+                  <div class="portfolio-item my-auto mx-auto">
+                    <a href="https://drive.google.com/file/d/1cCv3_aOfIzn_-i-6X9GcTHvLmyRUyrsE/view?usp=sharing">
+                      <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="text text-center text-white">
+                          <p class="mb-1">View Letter</p>
+                          <i class="fas fa-plus fa-2x"></i>
+                        </div>
+                      </div>
+                    </a>
+                    <img class="img-thumbnail" src="img/portfolio/ojedaimage.jpg" alt="" width="400" height="350">
+                  </div>
+                  <p class="text-center text-secondary portfolio-lead mb-4">State Senator Richard Ojeda</p>
+                </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                  <div class="portfolio-item my-auto mx-auto">
+                    <a href="https://drive.google.com/file/d/1vi370QoUPBItmNwJCX9XRvwuTH6xYqeK/view?usp=sharing">
+                      <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="text text-center text-white">
+                          <p class="mb-1">View Letter</p>
+                          <i class="fas fa-plus fa-2x"></i>
+                        </div>
+                      </div>
+                    </a>
+                    <img class="img-thumbnail " src="img/portfolio/infinitymarketing.png" alt="" width="400" height="350">
+                  </div>
+                  <p class="text-center text-secondary portfolio-lead mb-4">Infinity Marketing </p>
+                </div>
+
+                <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                  <div class="portfolio-item my-auto mx-auto">
+                    <a href="https://drive.google.com/file/d/1B7Na6So7ekCyix3bNLVJJHseU5NJx76L/view?usp=sharing">
+                      <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="text text-center text-white">
+                          <p class="mb-1">View Resume</p>
+                          <i class="fas fa-plus fa-2x"></i>
+                        </div>
+                      </div>
+                    </a>
+                    <img class="img-thumbnail" src="img/portfolio/accolades.jpg" alt="" width="400" height="350">
+                  </div>
+                  <p class="text-center text-secondary portfolio-lead mb-4">Single Page Resume </p>
+                  <!-- Accolades, GPA, Group Involvment, and other Interests  -->
+                </div>
+                <!-- Portfolio Modal - Text -->
+                <br>
+                <p class="portfolio-lead-text mt-2 pt-5">You can find reccomendations from two men I respect greatly after being on a team for almost a year during the election cycle, and a single paged resume if you'd like to share!</p>
+                <div class="pt-3">
+                  <button class="btn btn-primary" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>
+                    Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Modal 5a -->
+    <div class="portfolio-modal modal fade " id="portfolioModal5a" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5aLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class=" fas fa-times corner-close"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center ">
+
+            <div class="container">
+              <div class="row justify-content-center">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-center text-uppercase py-0 my-0">Infinity Marketing Recomendation</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-keyboard"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal 1C Image -->
+                <div class="col-md-12 col-lg-12 flex-shrink-1">
+                  <div class="text-center flex-shrink-1">
+                    <a href="#"></a>
+                  </div>
+                  <div class="portfolio-item mx-auto">
+                    <p class="portfolio-lead">
+                      Dave Wertz Recomendation
+                    </p>
+                  </div>
+                  <div class="container">
+                    <button class="btn btn-primary align-items-start" href="#" data-toggle="modal" data-target="#portfolioModal5" data-dismiss="modal">
+                      <i class="fas fa-arrow-left"></i>
+                      Back to Menu
+                    </button>
+                    <button class="btn btn-primary align-items-end" href="#" data-dismiss="modal">
+                      <i class="fas fa-times fa-fw"></i>
+                      Close Window
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Modal 5b -->
+    <div class="portfolio-modal modal fade " id="portfolioModal5b" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5bLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class=" fas fa-times corner-close"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center ">
+
+            <div class="container">
+              <div class="row justify-content-center">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-center text-uppercase py-0 my-0">State Senator Ojeda's Recomendation</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-keyboard"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal 1C Image -->
+                <div class="col-md-12 col-lg-12">
+                  <div class="text-center">
+                    <embed type="" src="img/pdf/Letter Of Reccomendation from Senator Ojeda_compressed.pdf" width="833" height="570">
+                  </div>
+                  <div class="portfolio-item mx-auto">
+                    <p class="portfolio-lead">
+                      State Sentor Richard Ojeda Recomendation
+                    </p>
+                  </div>
+                  <div class="container">
+                    <button class="btn btn-primary align-items-start" href="#" data-toggle="modal" data-target="#portfolioModal5" data-dismiss="modal">
+                      <i class="fas fa-arrow-left"></i>
+                      Back to Menu
+                    </button>
+                    <button class="btn btn-primary align-items-end" href="#" data-dismiss="modal">
+                      <i class="fas fa-times fa-fw"></i>
+                      Close Window
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Modal 5c -->
+    <div class="portfolio-modal modal fade " id="portfolioModal5c" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5cLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class=" fas fa-times corner-close"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center ">
+
+            <div class="container">
+              <div class="row justify-content-center">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-center text-uppercase py-0 my-0">Resume</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-keyboard"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal 1C Image -->
+                <div class="col-md-12 col-lg-12">
+                  <div class="text-center">
+                    <embed type="" src="img/pdf/Resume2019.pdf" width="833" height="570">
+                  </div>
+                  <div class="portfolio-item mx-auto">
+                    <p class="portfolio-lead">
+                      Single Paged Resume
+                    </p>
+                  </div>
+                  <div class="container">
+                    <button class="btn btn-primary align-items-start" href="#" data-toggle="modal" data-target="#portfolioModal5" data-dismiss="modal">
+                      <i class="fas fa-arrow-left"></i>
+                      Back to Menu
+                    </button>
+                    <button class="btn btn-primary align-items-end" href="#" data-dismiss="modal">
+                      <i class="fas fa-times fa-fw"></i>
+                      Close Window
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+        <div class="modal-content">
+          <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class=" fas fa-times corner-close"></i>
+          </span>
+        </button> -->
+          <div class="modal-body text-center ">
+
+            <div class="container">
+              <div class="row justify-content-center ">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Accolades, Skills, & Courses</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
@@ -991,409 +1357,97 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <!-- <div class="vidyard-player-container" uuid="JJWVWw3w9ypfErhmKdZr9F" style="margin:table-row; width: 100%; height: auto;overflow: hidden;display: block;">
-                  <div class="vidyard-div-JJWVWw3w9ypfErhmKdZr9F" role="application" aria-label="media player" style="position: relative; padding-bottom: 56.25%; padding-left: 10%; padding-right: 10%; height: 0px; overflow: hidden; max-width: 100%;">
-                    <iframe allow="fullscreen;" allowfullscreen="" allowtransparency="true" aria-label="Video" class="vidyard-iframe-JJWVWw3w9ypfErhmKdZr9F" frameborder="0" height="100%" width="100%" scrolling="yes"
-                      src="https://play.vidyard.com/JJWVWw3w9ypfErhmKdZr9F?disable_popouts=1&amp;v=4.2.19&amp;type=inline"  title="Video" style="opacity: 1; background-color: transparent; position: absolute; top: 0px; left: 0px;">
-                    </iframe>
-                  </div>
-                </div> -->
-                <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
-                <img style="width: 80%; margin: 20px; display: relative;" class="vidyard-player-embed" src="https://play.vidyard.com/JJWVWw3w9ypfErhmKdZr9F.jpg?preload=none&quality=1080p&force_https=1" data-uuid="JJWVWw3w9ypfErhmKdZr9F" data-v="4"
-                  data-type="inline" />
-                <p class="font-weight-bolder portfolio-lead-header pt-2">Plaga</p>
-                <p class="portfolio-game-text">
-                  <span class="font-weight-bold">Tools Used: </span> C#, Unity, Photoshop, Blender, and Monoscript.
-                </p>
-              </div>
-              <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                  <p class="portfolio-game-text text-left">I was given 3 months for my college thesis to make this game I dubbed Plaga. All the coding and animations were done by me.
-                    The art assets were gathered from free domain sources. I would then edit the 2D assets frame by frame to create the animation.
-                    In the future I could add more to this. I have a ton of ideas for bosses and special skills the player can utilize.
-                  </p>
-                  </p>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                  <p class="portfolio-game-text text-left">
-                    However, once I met people in the games industry and networked sufficiently, I found out that they didnt like games anymore.
-                    The industry had sort of broken that from them, and so I decided to go a different path for now at least. Its a shame really. I wanted to explore more of this world I created.
-                    I never would want to loathe that though.
-                  </p>
-                </div>
-              </div>
-              <div class="pt-3">
-                <button class="btn btn-primary align-items-end" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class=" fas fa-times corner-close"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                      <div id="carouselSkills" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselSkills" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselSkills" data-slide-to="1"></li>
+                          <li data-target="#carouselSkills" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="justify-content-center">
+                              <p class="portfolio-lead-header font-weight-bold pt-0 mt-3">Programming Languages, Tools, and Frameworks</p>
+                              <p class="skill-list-font-courses text-center pt-0 mt-1">C# -
+                                Python - C++ - Java - C - Visual Basic - HTML5 - CSS - Bootstrap - JavaScript - Node.js - REST - React.js - Express.js -
+                                Git - PHP - Atom - Unity - SQL - Heroku - npm - MongoDB - Mongoose - EJS - JSON - Gulp - UNIX - VB.NET - C#.NET - PyQt5 - Github -
+                                BitBucket - SQL - Photoshop - Visual Studio - OpenGL</p>
 
-          <div class="container">
-            <div class="row justify-content-center">
-              <!-- Portfolio Modal - Title -->
-              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Letters of Recomendation</h2>
-              <!-- Icon Divider -->
-              <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                  <i class="fas fa-keyboard"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-              </div>
-              <div class="col-8 col-sm-4 col-md-4 col-lg-4">
-                <div class="portfolio-item my-auto mx-auto">
-                  <a href="https://drive.google.com/file/d/155eqQQg0FQOJ94FyZDleXlLPTh-c2C8N/view?usp=sharing">
-                    <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
-                      <div class="text text-center text-white">
-                        <p class="mb-1">View Letter</p>
-                        <i class="fas fa-plus fa-2x"></i>
+                            </div>
+
+                          </div>
+                          <div class="carousel-item">
+                            <p class="portfolio-lead-header font-weight-bold pt-0 mt-3">Accomplishments, Accolades, and Group Memberships</p>
+                            <div class="justify-content-center">
+                              <p class="skill-list-font-courses text-center pt-0 mt-1">
+                                Five Time Deans Honor Roll Receipient -
+                                3.5 GPA from NSU -
+                                DigiDems Alummi -
+                                Member of Unity Developers group -
+                                TulsaWebDevs member -
+                                Cybersecurity forums/groups for entry/proffesionals. </p>
+                            </div>
+
+                          </div>
+                          <div class="carousel-item">
+                            <p class="portfolio-lead-header font-weight-bold pt-0 mt-3">Bachelors of Science in Computer Science</p>
+                            <div class="justify-content-center text-left">
+                              <p class="skill-list-font-courses text-center pt-0 mt-1">
+                                Cybersecurity - Linear Algebra - Web Design - Cloud Computing - Databases -
+                                Systems Administrator - Networking - Data Structures - Unix - Software Engineering -
+                                Windows Programming - Big Data - Full Stack Development - Technical Support -
+                                Python Programming - Object-Oriented Programming - Hardware Repair -
+                                PyQt5 - HTML, CSS, and JavaScript - Complex Algorithms - Calculus I-II-III
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <a class="carousel-skills-prev" href="#carouselSkills" role="button" data-slide="prev">
+                          <span class="carousel-skills-prev-icon" aria-hidden="true"> <i class="fas fa-chevron-left fa-2x"> </i></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+
+                        <a class="carousel-skills-next" href="#carouselSkills" role="button" data-slide="next">
+                          <span class="carousel-skills-next-icon" aria-hidden="true"> <i class="fas fa-chevron-right fa-2x"> </i></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+
+                      </div>
+                      <div class="container mb-5">
+                        <button class="btn btn-primary" href="#" data-dismiss="modal">
+                          <i class="fas fa-times fa-fw"></i> Close Window
+                        </button>
                       </div>
                     </div>
-                  </a>
-                  <img class="img-thumbnail" src="img/portfolio/ojedaimage.jpg" alt="" width="400" height="350">
-                </div>
-                <p class="text-center text-secondary portfolio-lead mb-4">State Senator Richard Ojeda</p>
-              </div>
-              <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="portfolio-item my-auto mx-auto">
-                  <a href="https://drive.google.com/file/d/1vi370QoUPBItmNwJCX9XRvwuTH6xYqeK/view?usp=sharing">
-                    <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
-                      <div class="text text-center text-white">
-                        <p class="mb-1">View Letter</p>
-                        <i class="fas fa-plus fa-2x"></i>
-                      </div>
-                    </div>
-                  </a>
-                  <img class="img-thumbnail " src="img/portfolio/infinitymarketing.png" alt="" width="400" height="350">
-                </div>
-                <p class="text-center text-secondary portfolio-lead mb-4">Infinity Marketing </p>
-              </div>
-
-              <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                <div class="portfolio-item my-auto mx-auto">
-                  <a href="https://drive.google.com/file/d/1B7Na6So7ekCyix3bNLVJJHseU5NJx76L/view?usp=sharing">
-                    <div class="portfolio-item-caption rounded d-flex align-items-center justify-content-center h-100 w-100">
-                      <div class="text text-center text-white">
-                        <p class="mb-1">View Resume</p>
-                        <i class="fas fa-plus fa-2x"></i>
-                      </div>
-                    </div>
-                  </a>
-                  <img class="img-thumbnail" src="img/portfolio/accolades.jpg" alt="" width="400" height="350">
-                </div>
-                <p class="text-center text-secondary portfolio-lead mb-4">Single Page Resume </p>
-                <!-- Accolades, GPA, Group Involvment, and other Interests  -->
-              </div>
-              <!-- Portfolio Modal - Text -->
-              <br>
-              <p class="portfolio-lead-text mt-2 pt-5">You can find reccomendations from two men I respect greatly after being on a team for almost a year during the election cycle, and a single paged resume if you'd like to share!</p>
-              <div class="pt-3">
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio Modal 5a -->
-  <div class="portfolio-modal modal fade " id="portfolioModal5a" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5aLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class=" fas fa-times corner-close"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center ">
-
-          <div class="container">
-            <div class="row justify-content-center">
-              <!-- Portfolio Modal - Title -->
-              <h2 class="portfolio-modal-title text-center text-uppercase py-0 my-0">Infinity Marketing Recomendation</h2>
-              <!-- Icon Divider -->
-              <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                  <i class="fas fa-keyboard"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-              </div>
-              <!-- Portfolio Modal 1C Image -->
-              <div class="col-md-12 col-lg-12 flex-shrink-1">
-                <div class="text-center flex-shrink-1">
-                  <a href="#"></a>
-                </div>
-                <div class="portfolio-item mx-auto">
-                  <p class="portfolio-lead">
-                    Dave Wertz Recomendation
-                  </p>
-                </div>
-                <div class="container">
-                  <button class="btn btn-primary align-items-start" href="#" data-toggle="modal" data-target="#portfolioModal5" data-dismiss="modal">
-                    <i class="fas fa-arrow-left"></i>
-                    Back to Menu
-                  </button>
-                  <button class="btn btn-primary align-items-end" href="#" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio Modal 5b -->
-  <div class="portfolio-modal modal fade " id="portfolioModal5b" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5bLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class=" fas fa-times corner-close"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center ">
-
-          <div class="container">
-            <div class="row justify-content-center">
-              <!-- Portfolio Modal - Title -->
-              <h2 class="portfolio-modal-title text-center text-uppercase py-0 my-0">State Senator Ojeda's Recomendation</h2>
-              <!-- Icon Divider -->
-              <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                  <i class="fas fa-keyboard"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-              </div>
-              <!-- Portfolio Modal 1C Image -->
-              <div class="col-md-12 col-lg-12">
-                <div class="text-center">
-                  <embed type="" src="img/pdf/Letter Of Reccomendation from Senator Ojeda_compressed.pdf" width="833" height="570">
-                </div>
-                <div class="portfolio-item mx-auto">
-                  <p class="portfolio-lead">
-                    State Sentor Richard Ojeda Recomendation
-                  </p>
-                </div>
-                <div class="container">
-                  <button class="btn btn-primary align-items-start" href="#" data-toggle="modal" data-target="#portfolioModal5" data-dismiss="modal">
-                    <i class="fas fa-arrow-left"></i>
-                    Back to Menu
-                  </button>
-                  <button class="btn btn-primary align-items-end" href="#" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio Modal 5c -->
-  <div class="portfolio-modal modal fade " id="portfolioModal5c" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5cLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class=" fas fa-times corner-close"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center ">
-
-          <div class="container">
-            <div class="row justify-content-center">
-              <!-- Portfolio Modal - Title -->
-              <h2 class="portfolio-modal-title text-center text-uppercase py-0 my-0">Resume</h2>
-              <!-- Icon Divider -->
-              <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                  <i class="fas fa-keyboard"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-              </div>
-              <!-- Portfolio Modal 1C Image -->
-              <div class="col-md-12 col-lg-12">
-                <div class="text-center">
-                  <embed type="" src="img/pdf/Resume2019.pdf" width="833" height="570">
-                </div>
-                <div class="portfolio-item mx-auto">
-                  <p class="portfolio-lead">
-                    Single Paged Resume
-                  </p>
-                </div>
-                <div class="container">
-                  <button class="btn btn-primary align-items-start" href="#" data-toggle="modal" data-target="#portfolioModal5" data-dismiss="modal">
-                    <i class="fas fa-arrow-left"></i>
-                    Back to Menu
-                  </button>
-                  <button class="btn btn-primary align-items-end" href="#" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class=" fas fa-times corner-close"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center ">
-
-          <div class="container">
-            <div class="row justify-content-center ">
-              <!-- Portfolio Modal - Title -->
-              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Skills & Experiences</h2>
-              <!-- Icon Divider -->
-              <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon">
-                  <i class="fas fa-keyboard"></i>
-                </div>
-                <div class="divider-custom-line"></div>
-              </div>
-              <!-- Portfolio Modal - Image -->
-              <div class="col-lg-12">
-
-                <p class="portfolio-lead-header font-weight-bold pt-0 mt-0">Programming Languages, Tools, and Frameworks</p>
-                <div class="row ">
-                  <div class="portfolio-lead align-content-center">
-                    <p class="skill-list-font-courses pt-1 mt-0">
-                      C#&nbsp; &nvHarr; &nbsp;
-                      &nbsp; Python&nbsp; &nvHarr; &nbsp;
-                      &nbsp; C++&nbsp; &nvHarr; &nbsp;
-                      &nbsp; Java&nbsp; &nvHarr; &nbsp;
-                      &nbsp; C&nbsp; &nvHarr; &nbsp;
-                      &nbsp; Visual Basic&nbsp; &nvHarr; &nbsp;
-                      &nbsp; HTML5&nbsp; &nvHarr; &nbsp;
-                      &nbsp;CSS&nbsp; &nvHarr; &nbsp;
-                      &nbsp;Bootstrap&nbsp; &nvHarr; &nbsp;
-                      &nbsp;JavaScript&nbsp; &nvHarr; &nbsp;
-                      &nbsp;Node.js&nbsp; &nvHarr; &nbsp;
-                      &nbsp;REST&nbsp; &nvHarr; &nbsp;
-                      &nbsp;React.js&nbsp; &nvHarr; &nbsp;
-                      &nbsp;Express.js&nbsp; &nvHarr; &nbsp;
-                      &nbsp;Git&nbsp; &nvHarr; &nbsp;
-                      &nbsp; PHP&nbsp; &nvHarr; &nbsp;
-                      &nbsp; Atom&nbsp; &nvHarr; &nbsp;
-                      &nbsp;Unity&nbsp; &nvHarr; &nbsp;
-                      &nbsp; SQL&nbsp; &nvHarr; &nbsp;
-                      &nbsp; Heroku&nbsp; &nvHarr; &nbsp;
-                      &nbsp; npm&nbsp; &nvHarr; &nbsp;
-                      &nbsp;MongoDB&nbsp; &nvHarr; &nbsp;
-                      &nbsp; Mongoose&nbsp; &nvHarr; &nbsp;
-                      &nbsp;EJS&nbsp; &nvHarr; &nbsp;
-                      &nbsp;JSON&nbsp; &nvHarr; &nbsp;
-                      &nbsp;Gulp&nbsp; &nvHarr; &nbsp;
-                      &nbsp; UNIX&nbsp; &nvHarr; &nbsp;
-                      &nbsp;VB.NET&nbsp; &nvHarr; &nbsp;
-                      &nbsp; C#.NET&nbsp; &nvHarr; &nbsp;
-                      &nbsp; PyQt5&nbsp; &nvHarr; &nbsp;
-                      &nbsp; Github&nbsp; &nvHarr; &nbsp;
-                      &nbsp; BitBucket &nbsp; &nvHarr; &nbsp;
-                      &nbsp; SQL &nbsp; &nvHarr; &nbsp;
-                      &nbsp;Photoshop&nbsp; &nvHarr; &nbsp;
-                      &nbsp;Visual Studio&nbsp; &nvHarr; &nbsp;
-                      &nbsp; OpenGL</p>
-
                   </div>
                 </div>
-
-                <p class="portfolio-lead-header font-weight-bold pt-0 mt-3">Accomplishments, Accolades, and Group Memberships</p>
-                <div class="container align-content-start">
-
-                  <p class="skill-list-font-courses pt-0 mt-1">Bachelors of Science in Computer Science &nbsp; &nvHarr; &nbsp; &nbsp;
-                    Five Time Deans Honor Roll Receipient &nbsp; &nvHarr; &nbsp; &nbsp;
-                    3.5 GPA from NSU &nbsp; &nvHarr; &nbsp; &nbsp;
-                    DigiDems Alummi &nbsp; &nvHarr; &nbsp; &nbsp;
-                    Member of Unity Developers group &nbsp; &nvHarr; &nbsp; &nbsp;
-                    TulsaWebDevs member &nbsp; &nvHarr; &nbsp; &nbsp;
-                    Cybersecurity forums/groups for entry/proffesionals. </p>
-                </div>
-
-                <p class="portfolio-lead-header font-weight-bold pt-0 mt-3">Courses</p>
-                <div class="row">
-
-                  <p class="skill-list-font-courses pt-0 mt-1"> Cybersecurity &nbsp; &nvHarr; &nbsp; &nbsp; Linear Algebra &nbsp; &nvHarr; &nbsp; &nbsp; Web Design &nbsp; &nvHarr; &nbsp; &nbsp;Cloud Computing Databases
-                    Systems Administrator &nbsp; &nvHarr; &nbsp; &nbsp;Networking &nbsp; &nvHarr; &nbsp; &nbsp;Data Structures &nbsp; &nvHarr; &nbsp; &nbsp; Unix &nbsp; &nvHarr; &nbsp; &nbsp; Software Engineering
-                    Windows Programming &nbsp; &nvHarr; &nbsp; &nbsp; Big Data &nbsp; &nvHarr; &nbsp; &nbsp; FullStack Development &nbsp; &nvHarr; &nbsp; &nbsp; Technical Support
-                    Python Programming &nbsp; &nvHarr; &nbsp; &nbsp; Object-Oriented Programming &nbsp; &nvHarr; &nbsp; &nbsp; Hardware Repair
-                    PyQt5 &nbsp; &nvHarr; &nbsp; &nbsp; HTML, CSS, and JavaScript &nbsp; &nvHarr; &nbsp; &nbsp; Complex Algorithms &nbsp; &nvHarr; &nbsp; &nbsp; Calculus I-II-III
-
-                  </p>
-
-                </div>
-
               </div>
-
-
             </div>
-          </div>
-
-          <div class="container mt-2">
-            <button class="btn btn-primary" href="#" data-dismiss="modal">
-              <i class="fas fa-times fa-fw"></i>
-              Close Window
-            </button>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-
+  <script>
+    $(window).on("load", function() {
+      $(".loader-wrapper").fadeOut("slow");
+    });
+  </script>
 
   <!-- Bootstrap core JavaScript -->
-  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
-  <script  async src="https://play.vidyard.com/embed/v4.js"></script>
-  <script src="jquery/jquery.js"></script>
-  <script  src="bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script async src="https://play.vidyard.com/embed/v4.js"></script>
+  <script src="jquery/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- Plugin JavaScript -->
-  <script  src="jquery-easing/jquery.easing.js"></script>
-  <!-- Contact Form JavaScript -->
-  <script src="/js/jqBootstrapValidation.js"></script>
-  <!-- <script src="/js/contact_me.js"></script> -->
+  <script src="jquery-easing/jquery.easing.min.js"></script>
   <!-- Custom scripts for this template -->
-  <script type="text/javascript" src="/js/freelancer.js"></script>
-
-  <script type="text/javascript" src="/js/jquery.bcSwipe.js"></script>
+  <script type="text/javascript" src="/js/jquery.bcSwipe.minify.js"></script>
+  <script type="text/javascript" src="/js/outline.minify.js"></script>
 </body>
 
 </html>
